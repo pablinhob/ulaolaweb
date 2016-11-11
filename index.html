@@ -41,13 +41,74 @@
     @media all and (max-width: 500px) {
     .vid-info .acronym { display: none; }
     }
+
+    #playBt {
+      position:absolute;
+      left: 50%;
+      top:50%;
+      margin-left:-60px;
+      margin-top:-60px;
+      background-color:#6e6e6e;
+      color:#fff;
+/*      width:60px;
+      height:60px;*/
+      padding:30px;
+      padding:30px;
+      padding-left:34px;
+      padding-right:34px;
+      border-radius:50%;
+      font-weight:bold;
+      font-size:40px;
+      cursor:pointer;
+    }
 </style>
+<script>
+
+</script>
 <body id="page-top">
+  <div id="playBt" onClick="playVideo()">&gt;</div>
   <div class="video-background">
     <div class="video-foreground">
-      <iframe src="https://www.youtube.com/embed/2tp0WcB7nb8?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=2tp0WcB7nb8" frameborder="0" allowfullscreen></iframe>
+      <iframe id="video" src="https://www.youtube.com/embed/2tp0WcB7nb8?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=2tp0WcB7nb8" frameborder="0" allowfullscreen></iframe>
     </div>
   </div>
+
+
+  <script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+  <script>
+
+    function detectmob() {
+       if(window.innerWidth <= 800 && window.innerHeight <= 600) {
+         return true;
+       } else {
+         return false;
+       }
+    }
+
+
+
+
+
+
+
+
+    function playVideo ( ) {
+      //$("#video")[0].contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
+      //console.log( $("#video")[0].contentWindow );
+      $("#video")[0].src = "https://www.youtube.com/embed/2tp0WcB7nb8?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=2tp0WcB7nb8;";
+    }
+
+
+    document.addEventListener('DOMContentLoaded', function() {
+      pl = document.getElementById('video');
+
+      if( detectmob() !== true ) {
+        document.getElementById('playBt').style.display = 'none';
+      }
+
+    });
+  </script>
 </body>
 
 </html>
