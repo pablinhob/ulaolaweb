@@ -93,18 +93,18 @@
 
 
 
-    function playVideo ( ) {
+    /*function playVideo ( ) {
       //$("#video")[0].contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
       //console.log( $("#video")[0].contentWindow );
-      $("#video")[0].src = "https://www.youtube.com/embed/2tp0WcB7nb8?showinfo=0&rel=0&autoplay=1&loop=1&playlist=2tp0WcB7nb8;";
-    }
+      $("#video")[0].src = "https://www.youtube.com/embed/2tp0WcB7nb8?controls=1&showinfo=0&rel=0&autoplay=1&loop=1&playlist=2tp0WcB7nb8;";
+    }*/
 
 
     document.addEventListener('DOMContentLoaded', function() {
       pl = document.getElementById('video');
 
       if( detectmob() !== true ) {
-        $("#video")[0].src = "https://www.youtube.com/embed/2tp0WcB7nb8?showinfo=0&rel=0&autoplay=1&loop=1&playlist=2tp0WcB7nb8;";
+        $("#video")[0].src = "https://www.youtube.com/embed/2tp0WcB7nb8?controls=1&showinfo=0&rel=0&autoplay=1&loop=1&playlist=2tp0WcB7nb8;";
         //document.getElementById('playBt').style.display = 'none';
       }
 
