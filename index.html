@@ -19,7 +19,7 @@
       left: 0;
       width: 100%;
       height: 100%;
-      pointer-events: none;
+      /*pointer-events: none;*/
     }
     #vidtop-content {
     	top: 0;
@@ -100,12 +100,15 @@
     }*/
 
 
-    document.addEventListener('DOMContentLoaded', function() {
+    $(document).ready( function() {
       pl = document.getElementById('video');
 
-      if( detectmob() === true ) {
-        $("#video")[0].src = "https://www.youtube.com/embed/2tp0WcB7nb8?controls=1&showinfo=0&rel=0&autoplay=1&loop=1&playlist=2tp0WcB7nb8;";
-        //document.getElementById('playBt').style.display = 'none';
+      if( detectmob() !== true ) {
+        //$("#video")[0].src = "https://www.youtube.com/embed/2tp0WcB7nb8?controls=1&showinfo=0&rel=0&loop=1&playlist=2tp0WcB7nb8;";
+        document.getElementById('playBt').style.display = 'none';
+      }
+      else {
+
       }
 
     });
