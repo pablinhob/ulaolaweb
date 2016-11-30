@@ -111,6 +111,9 @@ aside {
     background-color: transparent;
     border-color: rgba(255, 255, 255, 0.3);
   }
+  .navbar-default .navbar-brand {
+    display:none;
+  }
   .navbar-default .navbar-header .navbar-brand {
     color: rgba(255, 255, 255, 0.7);
   }
@@ -130,6 +133,13 @@ aside {
     background-color: white;
     border-color: rgba(34, 34, 34, 0.05);
   }
+    .navbar-default.affix .navbar-brand {
+      display:inline;
+      margin-top:-10px;
+    }
+      .navbar-default.affix .navbar-brand img{
+        height:40px;
+      }
   .navbar-default.affix .navbar-header .navbar-brand {
     color: #D9C700;
     font-size: 14px;
