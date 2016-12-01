@@ -193,6 +193,16 @@ header .header-content .header-content-inner p {
   font-size: 16px;
   margin-bottom: 50px;
 }
+
+
+.navbar-default.affix .navbar-brand {
+  display:inline;
+  margin-top:-10px;
+}
+  .navbar-default.affix .navbar-brand img{
+    height:40px;
+  }
+
 @media (min-width: 768px) {
   header {
     min-height: 100%;
@@ -283,6 +293,8 @@ header .header-content .header-content-inner p {
   outline: none;
 }
 @media (min-width: 768px) {
+
+
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
     font-size: 16px;
   }
