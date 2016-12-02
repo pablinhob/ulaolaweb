@@ -7,14 +7,13 @@ html,
 body {
   height: 100%;
   width: 100%;
-  background-color:#E4E4E4;
+
 }
 body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }
 hr {
   border-color: #FFFF01;
-
   border-width: 3px;
   max-width: 50px;
 }
@@ -26,7 +25,6 @@ a {
   -moz-transition: all 0.35s;
   transition: all 0.35s;
   color: #FFFF01;
-  text-shadow: 0px 0px 20px rgba(0,0,0, 0.4);
 }
 a:hover,
 a:focus {
@@ -63,14 +61,14 @@ aside {
   padding: 50px 0;
 }
 .fa {
-  text-shadow: 0px 0px 50px rgba(0,0,0, 0.2);
+  /*text-shadow: 0px 0px 50px rgba(0,0,0, 0.2);*/
 }
 
 .no-padding {
   padding: 0;
 }
 .navbar-default {
-  background-color: #D1D1D1;
+  background-color: white;
   border-color: rgba(34, 34, 34, 0.05);
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   -webkit-transition: all 0.35s;
@@ -124,7 +122,7 @@ aside {
   }
   .navbar-default .navbar-header .navbar-brand:hover,
   .navbar-default .navbar-header .navbar-brand:focus {
-    color: #D1D1D1;
+    color: white;
   }
   .navbar-default .nav > li > a,
   .navbar-default .nav > li > a:focus {
@@ -138,7 +136,7 @@ aside {
 
 
   .navbar-default.affix {
-    background-color: #D1D1D1;
+    background-color: white;
     border-color: rgba(34, 34, 34, 0.05);
   }
 
@@ -265,7 +263,7 @@ header .header-content .header-content-inner p {
   opacity: 0;
   display: block;
   /*background: rgba(240, 95, 64, 0.9);*/
-  background: rgba(255, 255, 1, 0.9);
+  background: rgba(100, 89, 11, 0.9);
   position: absolute;
   bottom: 0;
   text-align: center;
@@ -315,7 +313,7 @@ header .header-content .header-content-inner p {
   margin: 0 auto 20px;
 }
 .text-primary {
-  color: #FFFF01;
+  color: #000;
 }
 .no-gutter > [class*='col-'] {
   padding-right: 0;
@@ -371,7 +369,7 @@ fieldset[disabled] .btn-default.active {
 }
 .btn-primary {
   color: black;
-  background-color: #fff;
+  background-color: #FFFF01;
   border-color: #FFFF01;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
@@ -383,9 +381,8 @@ fieldset[disabled] .btn-default.active {
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
-/*  color: white;*/
-  color:black;
-  background-color: #FFFF01;
+  color: white;
+  background-color: #000;
   border-color: #FFFF01;
 }
 .btn-primary:active,
