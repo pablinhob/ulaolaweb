@@ -1,4 +1,7 @@
-var app = {};
+var app = {
+  currentLang:false,
+  currentSection:false
+};
 /*
     ROUTERS
 */
@@ -6,20 +9,23 @@ var app = {};
 app.router = new (Backbone.Router.extend({
 
   routes: {
-    "en": "langEn",
-    "es": "langEs",
-    "gl": "langGl",
+    "en(/:currentSection)": "langEn",
+    "es(/:currentSection)": "langEs",
+    "gl(/:currentSection)": "langGl",
     "": "noLang"
   },
 
-  langEn: function() {
+  langEn: function(currentSection) {
     app.setLang('en');
+    app.currentSection = currentSection;
   },
-  langEs: function() {
+  langEs: function(currentSection) {
     app.setLang('es');
+    app.currentSection = currentSection;
   },
-  langGl: function() {
+  langGl: function(currentSection) {
     app.setLang('gl');
+    app.currentSection = currentSection;
   },
   noLang: function() {
     app.router.navigate('gl', true);
@@ -32,15 +38,28 @@ app.router = new (Backbone.Router.extend({
 */
 
 app.setLang = function(lang) {
-  //console.log($('.langSelector button'))
+
+  app.currentLant = lang;
+  $.getJSON( "data/i18n_" + lang + ".json", function( data ) {
+  	$.i18n.load( data );
+
+    $('.i18n').each( function (i,e) {
+      if( $(e).attr('originalText') ) {
+        var originalText = $(e).attr('originalText');
+      }
+      else {
+        var originalText = $(e).html();
+        $(e).attr('originalText', originalText);
+      }
+      $(e).html( $.i18n._( originalText ) );
+    });
+  });
+
+  // change selector
   $('.langSelector button').html( lang + ' <span class="caret"></span>' );
 }
 
 
-
-
-
 $(document).ready( function(){
-  console.log(app.rounter);
   Backbone.history.start();
 });
