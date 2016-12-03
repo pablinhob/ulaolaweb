@@ -68,6 +68,18 @@ aside {
 .no-padding {
   padding: 0;
 }
+
+.langSelector {
+  margin-top:10px;
+  margin-left:15px;
+  float:right;
+}
+
+.affix-top .langSelector button {
+  background-color: rgba(0,0,0,0.1);
+  color:#fff;
+}
+
 .navbar-default {
   background-color: white;
   border-color: rgba(34, 34, 34, 0.05);
