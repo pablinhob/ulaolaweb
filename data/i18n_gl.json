@@ -1,4 +1,10 @@
 {
+  "index.html#surfboards" : "index.html#gl/surfboards",
+  "index.html#makers" : "index.html#gl/makers",
+  "inspirations.html" : "inspirations.html#gl",
+  "index.html#manifest" : "index.html#gl/manifest",
+
+
   "Hello !"
   :"Ola !",
   "Example 2"  							: "tei'än ve'en",

@@ -1,6 +1,6 @@
 var app = {
   currentLang:false,
-  currentSection:false
+  loadSection: function(){}
 };
 /*
     ROUTERS
@@ -17,15 +17,15 @@ app.router = new (Backbone.Router.extend({
 
   langEn: function(currentSection) {
     app.setLang('en');
-    app.currentSection = currentSection;
+    app.loadSection(currentSection);
   },
   langEs: function(currentSection) {
     app.setLang('es');
-    app.currentSection = currentSection;
+    app.loadSection(currentSection);
   },
   langGl: function(currentSection) {
     app.setLang('gl');
-    app.currentSection = currentSection;
+    app.loadSection(currentSection);
   },
   noLang: function() {
     app.router.navigate('gl', true);
@@ -39,11 +39,11 @@ app.router = new (Backbone.Router.extend({
 
 app.setLang = function(lang) {
 
-  app.currentLant = lang;
+  app.currentLang = lang;
   $.getJSON( "data/i18n_" + lang + ".json", function( data ) {
   	$.i18n.load( data );
 
-    $('.i18n').each( function (i,e) {
+    $('.i18nContent').each( function (i,e) {
       if( $(e).attr('originalText') ) {
         var originalText = $(e).attr('originalText');
       }
@@ -53,6 +53,18 @@ app.setLang = function(lang) {
       }
       $(e).html( $.i18n._( originalText ) );
     });
+
+    $('.i18nLink').each( function (i,e) {
+      if( $(e).attr('originalLink') ) {
+        var originalLink = $(e).attr('originalLink');
+      }
+      else {
+        var originalLink = $(e).attr('href');
+        $(e).attr('originalLink', originalLink);
+      }
+      $(e).attr('href', $.i18n._( originalLink ) );
+    });
+
   });
 
   // change selector
@@ -61,5 +73,14 @@ app.setLang = function(lang) {
 
 
 $(document).ready( function(){
+
+  app.loadSection = function( section ){
+    if( section ) {
+      $('html, body').animate({
+          scrollTop: $("#"+section).offset().top
+      }, 1000);
+    }
+  }
+
   Backbone.history.start();
 });

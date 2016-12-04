@@ -1,0 +1,27 @@
+{
+  "1_series": {
+    "name": "1 Series",
+    "description": {
+      "es":"A tablablabblabla",
+      "en":"A tablablabblabla",
+      "gl":"A tablablabblabla"
+    },
+    "models": []
+  },
+
+  "2_series": {
+    "name": "1 Series",
+    "description": {
+      "es":"A tablablabblabla",
+      "en":"A tablablabblabla",
+      "gl":"A tablablabblabla"
+    },
+    "models": []
+  },
+
+  "custom_series": {
+    "name": "Custom Series",
+    "description": "",
+    "models": []
+  }
+}
