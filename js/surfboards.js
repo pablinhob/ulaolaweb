@@ -1,9 +1,18 @@
 
 
-
-
-
 var surfboards = new (Backbone.View.extend({
+
+
+
+  el: "#surfboardsContent",
+  template: _.template( $('#surfboardTemplate').html() ),
+
+  events: {
+/*    "click .icon":          "open",
+    "click .button.edit":   "openEditDialog",
+    "click .button.delete": "destroy"*/
+  },
+
 
   data:false,
   currentSerie:false,
@@ -20,16 +29,25 @@ var surfboards = new (Backbone.View.extend({
   },
   selectSurfoard: function( serie, loadSurfoard ) {
     var that = this;
-    alert('yeah')
+    that.render();
   },
   loadData: function( onLoad ) {
     var that = this;
     $.getJSON( "data/surfboards.json", function( data ) {
-      this.data = data;
+      that.data = data;
       onLoad();
     });
 
+  },
+
+  render: function() {
+    var that = this;
+    that.$el.html( that.template({}) );
   }
+
+
+
+
 
 }));
 

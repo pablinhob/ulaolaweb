@@ -21,7 +21,8 @@
 
 
     <!-- Theme CSS -->
-    <link href="css_creative.css" rel="stylesheet">
+    <link href="css/creative.css" rel="stylesheet">
+    <link href="css/surfboards.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -33,8 +34,42 @@
 </head>
 
 <body id="page-top">
+
+  <!-- Templates -->
+  <script type="text/template" id="surfboardTemplate" >
+    <div class="row" style="max-width:1200;margin-right:auto;margin-left:auto;">
+      <div class="col-sm-7 foto"  >
+        <img src="data/surfboardImages/top.jpg" class="img-responsive">
+      </div>
+      <div class="col-sm-5 ficha">
+        <h1>The motherfucker</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+        <div class="row galeria">
+          <div class="col-xs-3"><div class="medidas">5'"</div><img src="data/surfboardImages/top.jpg" class="img-responsive"></div>
+          <div class="col-xs-3"><div class="medidas">5' 5"</div><img src="data/surfboardImages/top.jpg" class="img-responsive"></div>
+          <div class="col-xs-3"><div class="medidas">5' 10"</div><img src="data/surfboardImages/top.jpg" class="img-responsive"></div>
+          <div class="col-xs-3"><div class="medidas">6'</div><img src="data/surfboardImages/top.jpg" class="img-responsive"></div>
+        </div>
+        <div class="row">
+          
+          <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+          <input type="hidden" name="cmd" value="_s-xclick">
+          <input type="hidden" name="hosted_button_id" value="RWW25U5UYEKPN">
+          <input type="image" src="https://www.paypalobjects.com/es_ES/ES/i/btn/btn_buynow_LG.gif" border="0" name="submit" alt="PayPal. La forma rápida y segura de pagar en Internet.">
+          <img alt="" border="0" src="https://www.paypalobjects.com/es_ES/i/scr/pixel.gif" width="1" height="1">
+          </form>
+
+        </div>
+      </div>
+
+    </div>
+  </script>
+  <!-- /Templates -->
+
+
+
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top affix">
-        <a  class="navbar-brand page-scroll" href="index.html#page-top"><img src="img/logos/logo.png"></a>
+        <a  class="navbar-brand page-scroll i18nLink" href="index.html#page-top"><img src="img/logos/logo.png"></a>
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
 
@@ -79,7 +114,7 @@
     </nav>
 
 
-    <section>
+    <section id="surfboardsContent" class="surfboardsContent">
         OLA SECCION
     </section>
 

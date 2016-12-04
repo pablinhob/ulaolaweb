@@ -1,8 +1,14 @@
 {
+  "index.html#page-top": "index.html#es/page-top",
+  "#page-top": "#es/page-top",
+
   "index.html#surfboards" : "index.html#es/surfboards",
   "index.html#makers" : "index.html#es/makers",
   "inspirations.html" : "inspirations.html#es",
   "index.html#manifest" : "index.html#es/manifest",
+
+  "surfboards.html#lolSeries" : "surfboards.html#es/lolSeries",
+
 
   "Hello !"
   :"Hola !",
