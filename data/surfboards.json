@@ -1,27 +1,33 @@
 {
-  "1_series": {
-    "name": "1 Series",
-    "description": {
-      "es":"A tablablabblabla",
-      "en":"A tablablabblabla",
-      "gl":"A tablablabblabla"
+  "defaultSerie": "1_series",
+  "series": {
+    "1_series": {
+      "name": "1 Series",
+      "description": {
+        "es":"A tablablabblabla",
+        "en":"A tablablabblabla",
+        "gl":"A tablablabblabla"
+      },
+      "defaultBoard": "lol",
+      "boards": []
     },
-    "models": []
-  },
 
-  "2_series": {
-    "name": "1 Series",
-    "description": {
-      "es":"A tablablabblabla",
-      "en":"A tablablabblabla",
-      "gl":"A tablablabblabla"
+    "2_series": {
+      "name": "2 Series",
+      "description": {
+        "es":"A tablablabblabla",
+        "en":"A tablablabblabla",
+        "gl":"A tablablabblabla"
+      },
+      "defaultBoard": "lol",
+      "boards": []
     },
-    "models": []
-  },
 
-  "custom_series": {
-    "name": "Custom Series",
-    "description": "",
-    "models": []
+    "custom_series": {
+      "name": "Custom Series",
+      "description": "",
+      "defaultBoard": "lol",
+      "boards": []
+    }
   }
 }
