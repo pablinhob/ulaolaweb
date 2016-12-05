@@ -20,12 +20,12 @@ var surfboards = new (Backbone.View.extend({
 
   selectNoserie: function() {
     var that = this;
-    app.router.navigate( '#'+app.currentLang + '/serie/subserie' , true);
+    app.router.navigate( '#'+app.currentLang + '/serie/subserie' , {trigger: true, replace: true});
   },
 
   selectSerie: function( serie ) {
     var that = this;
-    app.router.navigate( '#'+app.currentLang + '/serie/subserie' , true);
+    app.router.navigate( '#'+app.currentLang + '/serie/subserie' , {trigger: true, replace: true});
   },
   selectSurfoard: function( serie, loadSurfoard ) {
     var that = this;
