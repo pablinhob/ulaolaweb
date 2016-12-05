@@ -45,7 +45,7 @@ $(document).ready( function(){
     })
 
     // Initialize and Configure Scroll Reveal Animation
-    window.sr = ScrollReveal();
+/*    window.sr = ScrollReveal();
     sr.reveal('.sr-icons', {
         duration: 600,
         scale: 0.3,
@@ -60,7 +60,7 @@ $(document).ready( function(){
         scale: 0.3,
         distance: '0px'
     }, 300);
-
+*/
 
 
 })(jQuery); // End of use strict
