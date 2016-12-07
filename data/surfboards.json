@@ -1,15 +1,38 @@
 {
-  "defaultSerie": "1_series",
+  "defaultSerie": "seriesBLA",
   "series": {
-    "1_series": {
-      "name": "1 Series",
+    "seriesBLA": {
+      "name": "Custom series",
       "description": {
-        "es":"A tablablabblabla",
-        "en":"A tablablabblabla",
-        "gl":"A tablablabblabla"
+        "es":"A serie ES",
+        "en":"A serie EN",
+        "gl":"É o terreno de probas de u-la ola. Agrupa todos os métodos constructivos utilizados e experimentados ata o día de hoxe. "
       },
-      "defaultBoard": "lol",
-      "boards": []
+      "defaultBoard": "minisimmons",
+      "boards": {
+        "minisimmons": {
+          "description":{
+            "es":"A tablablabblabla ES",
+            "en":"A tablablabblabla EN",
+            "gl":"Núcleo XPS laminado con madeira de samba. A estratificación está feita a base de aceite de linaza e vitrificador con base auga."
+          },
+          "fins": "Single fin (US-BOX)",
+          "sizes": [200,40,5],
+          "weight": [3000],
+          "pricing": false
+        },
+        "chambered1": {
+          "description":{
+            "es":"A tablablabblabla ES",
+            "en":"A tablablabblabla EN",
+            "gl":"Láminas de paulownia."
+          },
+          "fins": "Single fin (US-BOX)",
+          "sizes": [150,40,5],
+          "weight": [3000],
+          "pricing": false
+        }
+      }
     },
 
     "2_series": {

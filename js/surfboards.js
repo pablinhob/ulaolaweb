@@ -20,15 +20,24 @@ var surfboards = new (Backbone.View.extend({
 
   selectNoserie: function() {
     var that = this;
-    app.router.navigate( '#'+app.currentLang + '/serie/subserie' , {trigger: true, replace: true});
+
+    var serie = that.data.defaultSerie;
+    eval('var surfboard = that.data.series.'+serie+'.defaultBoard;');
+    app.router.navigate( '#'+app.currentLang + '/'+that.data.defaultSerie+'/'+surfboard , {trigger: true, replace: true});
   },
 
   selectSerie: function( serie ) {
     var that = this;
-    app.router.navigate( '#'+app.currentLang + '/serie/subserie' , {trigger: true, replace: true});
+
+    eval('var surfboard = that.data.series.'+serie+'.defaultBoard;');
+
+    app.router.navigate( '#'+app.currentLang + '/'+serie+'/'+surfboard, {trigger: true, replace: true});
   },
-  selectSurfoard: function( serie, loadSurfoard ) {
+  selectSurfoard: function( serie, surfboard ) {
     var that = this;
+    that.currentSerie = serie;
+    that.currentSurfboard = surfboard;
+
     that.render();
   },
   loadData: function( onLoad ) {
@@ -40,9 +49,33 @@ var surfboards = new (Backbone.View.extend({
 
   },
 
+
+  cmToFeets: function( valueCm ) {
+      var inches = ( valueCm *0.393700787).toFixed(0);
+      var feet = Math.floor(inches / 12);
+      inches %= 12;
+      return feet + "' " + inches + '"';
+  },
+
+  cmToInches: function( valueCm ) {
+      var inches = ( valueCm *0.393700787).toFixed(0);
+      return inches + '"';
+  },
+
+
   render: function() {
     var that = this;
-    that.$el.html( that.template({}) );
+
+      eval('var surfboard = that.data.series.' + that.currentSerie + '.boards.' + that.currentSurfboard );
+      eval('var serie = that.data.series.' + that.currentSerie );
+
+    if( typeof serie != 'undefined' && typeof surfboard != 'undefined' ) {
+      that.$el.html( that.template({surfboard:surfboard, serie:serie}) );
+    }
+    else {
+      that.selectNoserie();
+    }
+
   }
 
 

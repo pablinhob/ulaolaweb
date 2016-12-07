@@ -42,19 +42,26 @@
         <img src="data/surfboardImages/top.jpg" class="img-responsive">
       </div>
       <div class="col-sm-5 ficha">
-        <h1>The motherfucker</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+        <h1><%- serie.name %></h1>
+        <p><%= eval('serie.description.'+app.currentLang) %></p>
         <div class="row galeria">
           <div class="col-xs-3"><div class="medidas">5'"</div><img src="data/surfboardImages/top.jpg" class="img-responsive"></div>
           <div class="col-xs-3"><div class="medidas">5' 5"</div><img src="data/surfboardImages/top.jpg" class="img-responsive"></div>
           <div class="col-xs-3"><div class="medidas">5' 10"</div><img src="data/surfboardImages/top.jpg" class="img-responsive"></div>
           <div class="col-xs-3"><div class="medidas">6'</div><img src="data/surfboardImages/top.jpg" class="img-responsive"></div>
         </div>
-        <div class="row">
 
-          
-
+        <div>
+          <p><%= eval('surfboard.description.'+app.currentLang) %></p>
+          Medidas: <%=  surfboards.cmToFeets( surfboard.sizes[0] ) %> x <%=  surfboards.cmToInches( surfboard.sizes[1] ) %> x <%=  surfboards.cmToInches( surfboard.sizes[2] ) %>
+          <% if (surfboard.pricing) { %>
+              <div ><%= price %></div>
+          <% } else { %>
+              <div >SOLD</div>
+          <% } %>
         </div>
+
+
       </div>
 
     </div>
