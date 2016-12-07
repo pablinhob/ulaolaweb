@@ -12,6 +12,7 @@ app.router = new (Backbone.Router.extend({
     "en(/:currentSection)(/:subSection)": "langEn",
     "es(/:currentSection)(/:subSection)": "langEs",
     "gl(/:currentSection)(/:subSection)": "langGl",
+    "(:currentSection)(/:subSection)": "noLang",
     "": "noLang"
   },
 
@@ -27,8 +28,14 @@ app.router = new (Backbone.Router.extend({
     app.setLang('gl');
     app.loadSection(currentSection, subSection);
   },
-  noLang: function() {
-    app.router.navigate('gl', true);
+  noLang: function(currentSection, subSection) {
+    if(currentSection && subSection) {
+      app.router.navigate('gl/'+currentSection+'/'+subSection, true);
+    }
+    else {
+      app.router.navigate('gl', true);
+    }
+
   }
 
 }));
