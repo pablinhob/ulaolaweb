@@ -1,6 +1,6 @@
 .surfboardsContent .ficha h1 {
-  margin-top:0px;
-  padding-top: 0;
+  margin-top:0;
+  padding-top:0;
 }
 
   .surfboardsContent .ficha .galeria .taboa{
@@ -13,7 +13,7 @@
       bottom:5px;
       left:25px;
       color:rgba(255,255,255,0.5);
-      font-size:25px;
+      font-size:24px;
       font-weight: bold;
     }
 

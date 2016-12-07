@@ -17,8 +17,8 @@
             "gl":"Núcleo XPS laminado con madeira de samba. A estratificación está feita a base de aceite de linaza e vitrificador con base auga."
           },
           "fins": "Single fin (US-BOX)",
-          "sizes": [200,40,5],
-          "weight": [3000],
+          "sizes": [180,40,5],
+          "weight": [3100],
           "pricing": false
         },
         "chambered1": {
@@ -29,7 +29,7 @@
           },
           "fins": "Single fin (US-BOX)",
           "sizes": [150,40,5],
-          "weight": [3000],
+          "weight": [3200],
           "pricing": false
         }
       }

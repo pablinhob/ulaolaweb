@@ -48,16 +48,24 @@
           <div class="col-xs-3"><div class="medidas">5'"</div><img src="data/surfboardImages/top.jpg" class="img-responsive"></div>
           <div class="col-xs-3"><div class="medidas">5' 5"</div><img src="data/surfboardImages/top.jpg" class="img-responsive"></div>
           <div class="col-xs-3"><div class="medidas">5' 10"</div><img src="data/surfboardImages/top.jpg" class="img-responsive"></div>
-          <div class="col-xs-3"><div class="medidas">6'</div><img src="data/surfboardImages/top.jpg" class="img-responsive"></div>
         </div>
 
         <div>
           <p><%= eval('surfboard.description.'+app.currentLang) %></p>
-          Medidas: <%=  surfboards.cmToFeets( surfboard.sizes[0] ) %> x <%=  surfboards.cmToInches( surfboard.sizes[1] ) %> x <%=  surfboards.cmToInches( surfboard.sizes[2] ) %>
+        </div>
+        <div class="col-xs-6">
+          <ul>
+            <li>Medidas: <%=  surfboards.cmToFeets( surfboard.sizes[0] ) %> x <%=  surfboards.cmToInches( surfboard.sizes[1] ) %> x <%=  surfboards.cmToInches( surfboard.sizes[2] ) %></li>
+            <li>Aletas: <%-  surfboard.fins %></li>
+            <li>Peso: <%= parseFloat(surfboard.weight)/1000 %> Kg
+          </ul>
+        </div>
+        <div class="col-xs-6">
+          <div>450€</div>
           <% if (surfboard.pricing) { %>
-              <div ><%= price %></div>
+              <button ><%= price %></button>
           <% } else { %>
-              <div >SOLD</div>
+          <img src="https://www.paypalobjects.com/webstatic/en_AU/i/buttons/btn_paywith_primary_m.png" alt="Pay with PayPal" />
           <% } %>
         </div>
 
