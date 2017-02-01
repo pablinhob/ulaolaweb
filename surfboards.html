@@ -42,14 +42,9 @@
         <img src="data/surfboardImages/top.jpg" class="img-responsive">
       </div>
       <div class="col-sm-5 ficha">
-        <h1><%- serie.name %></h1>
-        <p class="descSerie"><%= eval('serie.description.'+app.currentLang) %></p>
-        <div class="row galeria">
-          <div class="col-xs-3"><div class="medidas">5'"</div><img src="data/surfboardImages/top.jpg" class="img-responsive"></div>
-          <div class="col-xs-3"><div class="medidas">5' 5"</div><img src="data/surfboardImages/top.jpg" class="img-responsive"></div>
-          <div class="col-xs-3"><div class="medidas">5' 10"</div><img src="data/surfboardImages/top.jpg" class="img-responsive"></div>
-        </div>
-        <div class="tablaconcreta">
+
+        <div class="tablaconcreta row">
+          <h1><%- surfboard.title %></h1>
           <div>
             <p><%= eval('surfboard.description.'+app.currentLang) %></p>
           </div>
@@ -69,6 +64,25 @@
             <% } %>
           </div-->
         </div>
+
+
+        <div class="row">
+          <h2><%- serie.name %></h2>
+          <p class="descSerie"><%= eval('serie.description.'+app.currentLang) %></p>
+          <div class="row galeria">
+            <% _.each( serie.boards , function(b, i) { %>
+
+              <div class="col-xs-3">
+                <a href="#<%= app.currentLang %>/<%-serieId%>/<%-i%>">
+                  <div class="medidas"><%- surfboards.cmToFeets( b.sizes[0] ) %></div>
+                  <img src="data/surfboardImages/top.jpg" class="img-responsive">
+                </a>
+              </div>
+
+            <%}); %>
+          </div>
+        </div>
+
 
       </div>
 

@@ -1,35 +1,37 @@
 {
-  "defaultSerie": "custom",
+  "defaultSerie": "research",
   "series": {
-    "custom": {
-      "name": "Custom series",
+    "research": {
+      "name": "Research series",
       "description": {
-        "es":"A serie ES",
-        "en":"A serie EN",
-        "gl":"É o terreno de probas de u-la ola. Agrupa todos os métodos constructivos utilizados e experimentados ata o día de hoxe. "
+        "es":"Tablas de prueba/error, customizadas u otras rarezas.",
+        "en":"Trial & error, customized u other strange surfboards",
+        "gl":"Tablas de proba/erro, customizadas ou outras rarezas"
       },
-      "defaultBoard": "minisimmons",
+      "defaultBoard": "singlesimmons",
       "boards": {
-        "minisimmons": {
+        "singlesimmons": {
+          "title":"Singlesimmons",
           "description":{
-            "es":"A tablablabblabla ES",
-            "en":"A tablablabblabla EN",
-            "gl":"Núcleo XPS laminado con madeira de samba. A estratificación está feita a base de aceite de linaza e vitrificador con base auga."
+            "es":"Una minisimmons single. Con núcleo de EPX y madera de obeche rematado en aceite, lasur y barniz",
+            "en":"Trial & error, customized u other strange surfboards",
+            "gl":"Tablas de proba/erro, customizadas ou outras rarezas"
           },
           "fins": "Single fin (US-BOX)",
-          "sizes": [180,40,5],
+          "sizes": [152,40,5],
           "weight": [3100],
           "pricing": false
         },
         "chambered1": {
+          "title":"CHAMBERED",
           "description":{
-            "es":"A tablablabblabla ES",
-            "en":"A tablablabblabla EN",
-            "gl":"Láminas de paulownia."
+            "es":"Una minisimmons single. Con núcleo de EPX y madera de obeche rematado en aceite, lasur y barniz",
+            "en":"Trial & error, customized u other strange surfboards",
+            "gl":"Tablas de proba/erro, customizadas ou outras rarezas"
           },
           "fins": "Single fin (US-BOX)",
-          "sizes": [150,40,5],
-          "weight": [3200],
+          "sizes": [182,40,5],
+          "weight": [3100],
           "pricing": false
         }
       }

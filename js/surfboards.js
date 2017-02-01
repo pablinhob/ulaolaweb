@@ -70,7 +70,7 @@ var surfboards = new (Backbone.View.extend({
       eval('var serie = that.data.series.' + that.currentSerie );
 
     if( typeof serie != 'undefined' && typeof surfboard != 'undefined' ) {
-      that.$el.html( that.template({surfboard:surfboard, serie:serie}) );
+      that.$el.html( that.template({surfboard:surfboard, serie:serie, serieId:that.currentSerie}) );
     }
     else {
       that.selectNoserie();
