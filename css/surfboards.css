@@ -3,6 +3,10 @@
   padding-top:0;
 }
 
+  .surfboardsContent .descSerie {
+    font-size:14px;
+  }
+
   .surfboardsContent .ficha .galeria .taboa{
     /*border:1px solid black;*/
     height:50px;
@@ -16,7 +20,20 @@
       font-size:24px;
       font-weight: bold;
     }
-
+    .surfboardsContent .tablaconcreta {
+      margin-top:15px;
+      font-size:17px;
+    }
+    .surfboardsContent .tablaconcreta .caracteristicas {
+      padding:0;
+    }
+    .surfboardsContent .tablaconcreta .caracteristicas ul {
+      padding-left:13px;
+      list-style-type: square;
+    }
+    .surfboardsContent .tablaconcreta .precio {
+      font-size:19px;
+    }
 
 
 .surfboardsContent .foto {

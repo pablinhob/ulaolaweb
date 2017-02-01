@@ -43,32 +43,32 @@
       </div>
       <div class="col-sm-5 ficha">
         <h1><%- serie.name %></h1>
-        <p><%= eval('serie.description.'+app.currentLang) %></p>
+        <p class="descSerie"><%= eval('serie.description.'+app.currentLang) %></p>
         <div class="row galeria">
           <div class="col-xs-3"><div class="medidas">5'"</div><img src="data/surfboardImages/top.jpg" class="img-responsive"></div>
           <div class="col-xs-3"><div class="medidas">5' 5"</div><img src="data/surfboardImages/top.jpg" class="img-responsive"></div>
           <div class="col-xs-3"><div class="medidas">5' 10"</div><img src="data/surfboardImages/top.jpg" class="img-responsive"></div>
         </div>
-
-        <div>
-          <p><%= eval('surfboard.description.'+app.currentLang) %></p>
+        <div class="tablaconcreta">
+          <div>
+            <p><%= eval('surfboard.description.'+app.currentLang) %></p>
+          </div>
+          <div class="col-xs-6 caracteristicas">
+            <ul>
+              <li>Medidas: <%=  surfboards.cmToFeets( surfboard.sizes[0] ) %> x <%=  surfboards.cmToInches( surfboard.sizes[1] ) %> x <%=  surfboards.cmToInches( surfboard.sizes[2] ) %></li>
+              <li>Aletas: <%-  surfboard.fins %></li>
+              <li>Peso: <%= parseFloat(surfboard.weight)/1000 %> Kg
+            </ul>
+          </div>
+          <!--div class="col-xs-6 text-right">
+            <div class="precio">450€</div>
+            <% if (surfboard.pricing) { %>
+                <button ><%= price %></button>
+            <% } else { %>
+            <img src="https://www.paypalobjects.com/webstatic/en_AU/i/buttons/btn_paywith_primary_m.png" alt="Pay with PayPal" />
+            <% } %>
+          </div-->
         </div>
-        <div class="col-xs-6">
-          <ul>
-            <li>Medidas: <%=  surfboards.cmToFeets( surfboard.sizes[0] ) %> x <%=  surfboards.cmToInches( surfboard.sizes[1] ) %> x <%=  surfboards.cmToInches( surfboard.sizes[2] ) %></li>
-            <li>Aletas: <%-  surfboard.fins %></li>
-            <li>Peso: <%= parseFloat(surfboard.weight)/1000 %> Kg
-          </ul>
-        </div>
-        <div class="col-xs-6">
-          <div>450€</div>
-          <% if (surfboard.pricing) { %>
-              <button ><%= price %></button>
-          <% } else { %>
-          <img src="https://www.paypalobjects.com/webstatic/en_AU/i/buttons/btn_paywith_primary_m.png" alt="Pay with PayPal" />
-          <% } %>
-        </div>
-
 
       </div>
 
@@ -102,21 +102,21 @@
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
+              <ul class="nav navbar-nav navbar-right">
 
-                  <li>
-                      <a class="page-scroll i18nLink" href="index.html#surfboards">Surfboards</a>
-                  </li>
-                  <li>
-                      <a class="page-scroll i18nLink" href="index.html#makers">We are makers</a>
-                  </li>
-                  <li>
-                      <a class="page-scroll i18nLink" href="inspirations.html">Inspirations</a>
-                  </li>
-                  <li>
-                      <a class="page-scroll i18nLink" href="index.html#manifest">Manifest</a>
-                  </li>
-                </ul>
+                <li>
+                    <a class="page-scroll i18nLink i18nContent" href="index.html#surfboards">Surfboards</a>
+                </li>
+                <li>
+                    <a class="page-scroll i18nLink i18nContent" href="index.html#makers">We are makers</a>
+                </li>
+                <li>
+                    <a class="page-scroll i18nLink i18nContent" href="inspirations.html">Inspirations</a>
+                </li>
+                <li>
+                    <a class="page-scroll i18nLink i18nContent" href="index.html#contact">Contact</a>
+                </li>
+              </ul>
             </div>
             <!-- /.navbar-collapse -->
         </div>

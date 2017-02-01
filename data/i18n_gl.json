@@ -1,7 +1,7 @@
 {
   "index.html#page-top": "index.html#es/page-top",
-  "#page-top": "#es/page-top",
-  
+  "#page-top": "#gl/page-top",
+
   "index.html#surfboards" : "index.html#gl/surfboards",
   "index.html#makers" : "index.html#gl/makers",
   "inspirations.html" : "inspirations.html#gl",
@@ -9,19 +9,21 @@
 
   "surfboards.html#lolSeries" : "surfboards.html#gl/lolSeries",
 
+  "We are makers": "Somos makers",
+  "Inspirations": "Inspiracións",
+  "Contact": "Contacto",
 
-  "Hello !"
-  :"Ola !",
-  "Example 2"  							: "tei'än ve'en",
-  "Example 3"  							: "teiä vede",
-  "Example 4"  							: "teirän veren",
-  "Example 5"  							: "teilän velen",
-  "Example 6"  							: "teijjän vejen",
-  "Example 7"  							: "teidän veden",
-  "Example 8"  							: "teitän veten",
-  "Example 9"  							: "teiðän veðen",
-  "Example 10" 							: "teidhän vethen",
-  "Dynamic Content" 				: "Your browser window is %s x %s",
-  "Ordered Dynamic Content" : "%2$s is the height of your browser window, and %1$s is the width.",
-  "HTML Content"            : "Your browser window is <b><i>%s</i></b> x <b><i>%s</i></b>"
+
+  "Hello !"  :"Ola !",
+  "Wood is good": "A madeira mola",
+  "keep it local": "Que sea local",
+  "Hi tech process": "Proceso hiTech",
+  "Open designs": "Deseños abertos",
+  "Encántannos os materiais amigables e de baixa toxicidade.": "Encántannos os materiais amigables e de baixa toxicidade.",
+
+  "Obtemos a maior parte dos materiais no entorno industrial cercano.":"Obtemos a maior parte dos materiais no entorno industrial cercano.",
+  "A producción a pequena escala non é incompatible coas últimas técnicas.":"A producción a pequena escala non é incompatible coas últimas técnicas.",
+  "Tamén liberaremos os deseños das nosas táboas.":"Tamén liberaremos os deseños das nosas táboas.",
+  "Coming soon...": "Próximamente ...",
+  "Somos o que somos":"Somos o que somos grazas ó <a href='https://gl.wikipedia.org/wiki/Software_libre' target='_blank'>software e hardware libres</a>, de xeito que compartiremos todo o noso coñecemento para que poida ser aproveitado e mellorado pola comunidade."
 }

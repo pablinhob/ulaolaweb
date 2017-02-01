@@ -1,7 +1,7 @@
 {
-  "defaultSerie": "seriesBLA",
+  "defaultSerie": "custom",
   "series": {
-    "seriesBLA": {
+    "custom": {
       "name": "Custom series",
       "description": {
         "es":"A serie ES",

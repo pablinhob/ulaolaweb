@@ -9,19 +9,22 @@
 
   "surfboards.html#lolSeries" : "surfboards.html#es/lolSeries",
 
+  "We are makers": "Somos makers",
+  "Inspirations": "Inspiraciones",
+  "Contact": "Contacto",
 
-  "Hello !"
-  :"Hola !",
-  "Example 2"  							: "tei'än ve'en",
-  "Example 3"  							: "teiä vede",
-  "Example 4"  							: "teirän veren",
-  "Example 5"  							: "teilän velen",
-  "Example 6"  							: "teijjän vejen",
-  "Example 7"  							: "teidän veden",
-  "Example 8"  							: "teitän veten",
-  "Example 9"  							: "teiðän veðen",
-  "Example 10" 							: "teidhän vethen",
-  "Dynamic Content" 				: "Your browser window is %s x %s",
-  "Ordered Dynamic Content" : "%2$s is the height of your browser window, and %1$s is the width.",
-  "HTML Content"            : "Your browser window is <b><i>%s</i></b> x <b><i>%s</i></b>"
+  "Hello !":"Hola !",
+
+  "Wood is good": "La madeira mola",
+  "keep it local": "Que sea local",
+  "Hi tech process": "Proceso hiTech",
+  "Open designs": "Diseños abertos",
+  "Encántannos os materiais amigables e de baixa toxicidade.": "Nos encantan los materiables amigables y de baja toxicidad",
+
+  "Obtemos a maior parte dos materiais no entorno industrial cercano.":"Conseguimos la mayor parte de los materiales en el entorno industrial cercano.",
+  "A producción a pequena escala non é incompatible coas últimas técnicas.":"La producción a pequeña escala non es incompatible con las últimas técnicas.",
+  "Tamén liberaremos os deseños das nosas táboas.":"También liberaremos los diseños de nuestras tablas.",
+  "Coming soon...": "Próximamente ...",
+  "Somos o que somos":"Somos lo que somos gracias al <a href='https://es.wikipedia.org/wiki/Software_libre' target='_blank'>software y hardware libres</a>, de modo que compartiremos todo nuestro conocimiento para que pueda ser aprovechado y mejorado por la comunidad."
+
 }
