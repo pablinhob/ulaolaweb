@@ -1,13 +1,14 @@
 var app = {
   currentLang:false,
-  loadSection: function(){}
+  loadSection: function(){
+
+  }
 };
 /*
     ROUTERS
 */
 
 app.router = new (Backbone.Router.extend({
-
   routes: {
     "en(/:currentSection)(/:subSection)": "langEn",
     "es(/:currentSection)(/:subSection)": "langEs",

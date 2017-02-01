@@ -22,12 +22,12 @@
           "weight": [3100],
           "pricing": false
         },
-        "chambered1": {
-          "title":"CHAMBERED",
+        "spaceoddity": {
+          "title":"Space oddity",
           "description":{
-            "es":"Una minisimmons single. Con núcleo de EPX y madera de obeche rematado en aceite, lasur y barniz",
-            "en":"Trial & error, customized u other strange surfboards",
-            "gl":"Tablas de proba/erro, customizadas ou outras rarezas"
+            "es":"Paulownia con cámara. Con glaseado final en resina epoxi.",
+            "en":"Paulownia chambered. Glassed with epoxy resin.",
+            "gl":"Paulownia con cámara. Con glaseado final en resina epoxi"
           },
           "fins": "Single fin (US-BOX)",
           "sizes": [182,40,5],

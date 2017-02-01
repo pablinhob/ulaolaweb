@@ -2,7 +2,16 @@
   margin-top:0;
   padding-top:0;
 }
-
+  .reverseSurfboard {
+    cursor:pointer;
+    position:absolute;
+    width:35px;
+    height:30px;
+    color:#fff;
+    right:30px;
+    top:15px;
+  }
+  
   .surfboardsContent .descSerie {
     font-size:14px;
   }

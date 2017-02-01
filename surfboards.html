@@ -39,7 +39,8 @@
   <script type="text/template" id="surfboardTemplate" >
     <div class="row" style="max-width:1200;margin-right:auto;margin-left:auto;">
       <div class="col-sm-7 foto"  >
-        <img src="data/surfboardImages/top.jpg" class="img-responsive">
+        <i class="fa fa-3x fa-refresh reverseSurfboard"></i>
+        <img src="data/surfboardImages/<%-surfboardId%>_1.jpg" class="img-responsive">
       </div>
       <div class="col-sm-5 ficha">
 
@@ -75,7 +76,7 @@
               <div class="col-xs-3">
                 <a href="#<%= app.currentLang %>/<%-serieId%>/<%-i%>">
                   <div class="medidas"><%- surfboards.cmToFeets( b.sizes[0] ) %></div>
-                  <img src="data/surfboardImages/top.jpg" class="img-responsive">
+                  <img src="data/surfboardImages/<%-i%>_1.jpg" class="img-responsive">
                 </a>
               </div>
 

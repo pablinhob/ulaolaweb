@@ -39,6 +39,7 @@ var surfboards = new (Backbone.View.extend({
     that.currentSurfboard = surfboard;
 
     that.render();
+    window.scrollTo(0, 0);
   },
   loadData: function( onLoad ) {
     var that = this;
@@ -70,11 +71,27 @@ var surfboards = new (Backbone.View.extend({
       eval('var serie = that.data.series.' + that.currentSerie );
 
     if( typeof serie != 'undefined' && typeof surfboard != 'undefined' ) {
-      that.$el.html( that.template({surfboard:surfboard, serie:serie, serieId:that.currentSerie}) );
+      that.$el.html( that.template({surfboard:surfboard, serie:serie, serieId:that.currentSerie, surfboardId: that.currentSurfboard }) );
+      $('.reverseSurfboard').click(function(el){
+        var boardImg = $($(el.target).next()[0]);
+        var boardImgSrc = boardImg.attr('src').split("_");
+        //if(boardImg)
+        console.log( boardImgSrc[0], boardImgSrc[1]  )
+
+        if( boardImgSrc[1] == '1.jpg') {
+           boardImg.attr('src', boardImgSrc[0] + '_2.jpg' );
+        }
+        else {
+           boardImg.attr('src', boardImgSrc[0] + '_1.jpg' );
+        }
+
+      });
     }
     else {
       that.selectNoserie();
     }
+
+
 
   }
 
@@ -87,6 +104,7 @@ var surfboards = new (Backbone.View.extend({
 
 
 $(document).ready( function(){
+
 
   surfboards.loadData( function() {
     app.loadSection = function( section, subsection ){
