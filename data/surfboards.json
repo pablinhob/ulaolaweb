@@ -14,8 +14,8 @@
           "title":"Singlesimmons",
           "description":{
             "es":"Una minisimmons single. Con núcleo de EPX y madera de obeche rematado en aceite, lasur y barniz",
-            "en":"Trial & error, customized u other strange surfboards",
-            "gl":"Tablas de proba/erro, customizadas ou outras rarezas"
+            "en":"Una minisimmons single. Con núcleo de EPX y madera de obeche rematado en aceite, lasur y barniz",
+            "gl":"Unha minisimmons single. Con núcleo de EPX e madeira de obeche rematado en aceite, lasur e barniz"
           },
           "fins": "Single fin (US-BOX)",
           "sizes": [152,40,5],
@@ -32,6 +32,18 @@
           "fins": "Single fin (US-BOX)",
           "sizes": [182,40,5],
           "weight": [3100],
+          "pricing": false
+        },
+        "tablon1": {
+          "title":"Minimal #1",
+          "description":{
+            "es":"Minimalibú. Con núcleo de EPX y madera de okumen rematado en aceite, lasur y barniz",
+            "en":"Minimalibú. Con núcleo de EPX y madera de okumen rematado en aceite, lasur y barniz",
+            "gl":"Minimalibú. Con núcleo de EPX e madeira de okumen rematado en aceite, lasur e barniz"
+          },
+          "fins": "Single fin (US-BOX)",
+          "sizes": [213,40,5],
+          "weight": [4800],
           "pricing": false
         }
       }
