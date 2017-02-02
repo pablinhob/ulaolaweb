@@ -18,8 +18,20 @@
             "gl":"Unha minisimmons single de cóncavo simple. Con núcleo de EPX e madeira de obeche rematado en aceite, lasur e barniz"
           },
           "fins": "Single fin (US-BOX)",
-          "sizes": [152,0,0],
+          "sizes": [152,52,5.8],
           "weight": [3100],
+          "pricing": false
+        },
+        "shortpanda": {
+          "title":"Shortboard Pandabears",
+          "description":{
+            "es":"Shortboard. Núcleo de EPX y madera de obeche, rematado en resina epoxi + tela de algodón incrustada.",
+            "en":"Shortboard. EPX core and obeche wood, finish with an epoxy resin + inlay fabricc.",
+            "gl":"Shortboard. Núcleo de EPX e madeira de obeche, rematado en resina epoxi + tela de algodón incrustada."
+          },
+          "fins": "3 Fin (FCS)",
+          "sizes": [164,63.5,7],
+          "weight": [3400],
           "pricing": false
         },
         "spaceoddity": {
@@ -30,7 +42,7 @@
             "gl":"Paulownia con cámara. Con glaseado final en resina epoxi"
           },
           "fins": "Single fin (US-BOX)",
-          "sizes": [182,0,0],
+          "sizes": [182,55.8,6.35],
           "weight": [4100],
           "pricing": false
         },
@@ -42,10 +54,11 @@
             "gl":"Minimalibú. Con núcleo de EPX e contrachapado de okumen rematada en aceite, lasur e barniz"
           },
           "fins": "Single fin (US-BOX)",
-          "sizes": [213,0,0],
+          "sizes": [213,60.96,6.6],
           "weight": [5200],
           "pricing": false
         }
+
       }
     },
 
