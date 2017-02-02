@@ -13,9 +13,9 @@
         "singlesimmons": {
           "title":"Singlesimmons",
           "description":{
-            "es":"Una minisimmons single. Con núcleo de EPX y madera de obeche rematado en aceite, lasur y barniz",
-            "en":"A single minisimmons.  EPX core and obeche wood finished with oil, lasure and barnish",
-            "gl":"Unha minisimmons single. Con núcleo de EPX e madeira de obeche rematado en aceite, lasur e barniz"
+            "es":"Una minisimmons single de cóncavo simple. Con núcleo de EPX y madera de obeche rematado en aceite, lasur y barniz",
+            "en":"A single minisimmons with simple concave.  EPX core and obeche wood finished with oil, lasure and barnish",
+            "gl":"Unha minisimmons single de cóncavo simple. Con núcleo de EPX e madeira de obeche rematado en aceite, lasur e barniz"
           },
           "fins": "Single fin (US-BOX)",
           "sizes": [152,0,0],

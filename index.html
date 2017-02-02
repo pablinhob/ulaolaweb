@@ -2,132 +2,384 @@
 <html lang="en">
 
 <head>
-  <title>U-la ola: Unusual surfboards</title>
-  <meta name="keywords" content="wooden, surfboards, shapers, makers, maker, shape, wood">
-  <meta property="og:title" content="U-la ola: Unusual surfboards" />
-  <meta property="og:description" content="U-la ola oficial website is coming soon">
-  <meta property="og:url" content="http://ulaola.site" />
-  <meta property="og:image" content="http://ulaola.site/socialBG_low.png" />
 
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-  <style>
-      body {
-          font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-      }
-      * { box-sizing: border-box; }
-      .video-background {
-        background: #000;
-        position: fixed;
-        top: 0; right: 0; bottom: 0; left: 0;
-        z-index: -99;
-      }
-      .video-foreground,
-      .video-background iframe {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        /*pointer-events: none;*/
-      }
-      #vidtop-content {
-      	top: 0;
-      	color: #fff;
-      }
-      .vid-info { position: absolute; top: 0; right: 0; width: 33%; background: rgba(0,0,0,0.3); color: #fff; padding: 1rem; font-family: Avenir, Helvetica, sans-serif; }
-      .vid-info h1 { font-size: 2rem; font-weight: 700; margin-top: 0; line-height: 1.2; }
-      .vid-info a { display: block; color: #fff; text-decoration: none; background: rgba(0,0,0,0.5); transition: .6s background; border-bottom: none; margin: 1rem auto; text-align: center; }
-      @media (min-aspect-ratio: 16/9) {
-        .video-foreground { height: 300%; top: -100%; }
-      }
-      @media (max-aspect-ratio: 16/9) {
-        .video-foreground { width: 300%; left: -100%; }
-      }
-      @media all and (max-width: 600px) {
-      .vid-info { width: 50%; padding: .5rem; }
-      .vid-info h1 { margin-bottom: .2rem; }
-      }
-      @media all and (max-width: 500px) {
-      .vid-info .acronym { display: none; }
-      }
+    <title>u-la ola - Unusual surfboards</title>
 
-      #playBt {
-        position:absolute;
-        left: 50%;
-        top:50%;
-        margin-left:-60px;
-        margin-top:-60px;
-        background-color:#6e6e6e;
-        color:#fff;
-  /*      width:60px;
-        height:60px;*/
-        padding:30px;
-        padding:30px;
-        padding-left:34px;
-        padding-right:34px;
-        border-radius:50%;
-        font-weight:bold;
-        font-size:40px;
-        cursor:pointer;
-      }
-  </style>
+    <!-- Bootstrap Core CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+    <!-- Theme CSS -->
+    <link href="css/creative.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
 </head>
 
-<script>
-
-</script>
 <body id="page-top">
-  <!--div id="playBt" onClick="playVideo()">&gt;</div-->
-  <div class="video-background">
-    <div class="video-foreground">
-      <iframe id="video" src="https://www.youtube.com/embed/2tp0WcB7nb8?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=2tp0WcB7nb8" frameborder="0" allowfullscreen></iframe>
-    </div>
-  </div>
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div><a  class="navbar-brand page-scroll i18nLink" href="#page-top"><img src="img/logos/logo.png"></a></div>
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
 
-  <a href="https://www.instagram.com/uo_surfboards/">
-    <div style="position:absolute;right:10px;bottom:10px;">
-      <div style="float:left;font-size:25px;color:#fff;margin-right:10px;margin-top:20px;text-shadow: 0px 0px  8px #000;">@uo_surfboards</div> 
-      <img style="float:left;" src="ig.png" >
-    </div>
-  </a>
+            <div class="dropdown langSelector">
+             <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">GL
+             <span class="caret"></span></button>
+             <ul class="dropdown-menu">
+               <li><a href="#gl">GL</a></li>
+               <li><a href="#es">ES</a></li>
+               <li><a href="#en">EN</a></li>
+             </ul>
+            </div>
+
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+
+                    <li>
+                        <a class="page-scroll i18nLink" href="#surfboards">Surfboards</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll i18nLink i18nContent" href="#makers">We are makers</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll i18nLink i18nContent" href="inspirations.html">Inspirations</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll i18nLink i18nContent" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <img  class="img-responsive center-block" src="img/logos/blanco_transparente_recortado.png"  style="   opacity: 0.8;">
+                <hr>
+                <p>Ula Ola :: Unusual surfboards</p>
+                <a href="#surfboards" class="btn btn-primary btn-xl page-scroll i18nContent">Hello !</a>
+            </div>
+        </div>
+    </header>
 
 
-  <script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
-
-  <script>
-
-    function detectmob() {
-       if(window.innerWidth <= 800 && window.innerHeight <= 600) {
-         return true;
-       } else {
-         return false;
-       }
-    }
+    <!-- SURFBOARDS -->
 
 
-    $(document).ready( function() {
-      pl = document.getElementById('video');
+    <section id="surfboards">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Surfboards</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 text-center">
+                  <div class="service-box">
+                    <i class="fa fa-4x fa-tree text-primary sr-icons"></i>
+                    <h3 class="i18nContent">Wood is good</h3>
+                    <p class="text-muted i18nContent">Encántannos os materiais amigables e de baixa toxicidade.</p>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-map-marker text-primary sr-icons"></i>
+                        <h3 class="i18nContent">keep it local</h3>
+                        <p class="text-muted i18nContent">Obtemos a maior parte dos materiais no entorno industrial cercano.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-cogs text-primary sr-icons"></i>
+                        <h3 class="i18nContent">Hi tech process</h3>
+                        <p class="text-muted i18nContent">A producción a pequena escala non é incompatible coas últimas técnicas.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-creative-commons text-primary sr-icons"></i>
+                        <h3 class="i18nContent">Open designs</h3>
+                        <p class="text-muted i18nContent">Tamén liberaremos os deseños das nosas táboas.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-      if( detectmob() !== true ) {
-        //$("#video")[0].src = "https://www.youtube.com/embed/2tp0WcB7nb8?controls=1&showinfo=0&rel=0&loop=1&playlist=2tp0WcB7nb8;";
-        document.getElementById('playBt').style.display = 'none';
-      }
-      else {
+    <section class="no-padding" id="portfolio">
+        <div class="container-fluid">
+            <div class="row no-gutter popup-gallery">
 
-      }
 
-    });
-  </script>
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box i18nLink" >
+                        <img src="img/portfolio/thumbnails/stubby.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Stubby (Coming soon)
+                                </div>
+                                <div class="project-name">
+                                    Short
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a  class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/long.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Mini malibu (coming soon)
+                                </div>
+                                <div class="project-name">
+                                    Long
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="surfboards.html#research" class="i18nLink portfolio-box">
+                        <img src="img/portfolio/thumbnails/custom.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    unique cases
+                                </div>
+                                <div class="project-name">
+                                    Research
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
 
-    ga('create', 'UA-87276043-1', 'auto');
-    ga('send', 'pageview');
+            </div>
+        </div>
+    </section>
 
-  </script>
+
+
+    <!-- WE'RE MAKERS -->
+    <section id="makers">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading i18nContent">We are makers</h2>
+                    <hr class="primary">
+                    <p class="text-muted i18nContent">Somos o que somos</p>
+                    <!--p class="text-muted i18nContent">Somos o que somos grazas ó <a href='https://gl.wikipedia.org/wiki/Software_libre' target='_blank'>software e hardware libres</a>, de xeito que compartiremos todo o noso coñecemento para que poida ser aproveitado e mellorado pola comunidade.</p-->
+                </div>
+            </div>
+        </div>
+
+    </section>
+<!--
+    <section id="makers">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">We are makers</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-diamond text-primary sr-icons"></i>
+                        <h3>Sturdy Templates</h3>
+                        <p class="text-muted">Our templates are updated regularly so they don't break.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-paper-plane text-primary sr-ic  ons"></i>
+                        <h3>Ready to Ship</h3>
+                        <p class="text-muted">You can use this theme as is, or you can make changes!</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>
+                        <h3>Up to Date</h3>
+                        <p class="text-muted">We update dependencies to keep things fresh.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-heart text-primary sr-icons"></i>
+                        <h3>Made with Love</h3>
+                        <p class="text-muted">You have to make your websites with love these days!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+-->
+    <section class="no-padding">
+        <div class="container-fluid">
+            <div class="row no-gutter popup-gallery">
+
+              <div class="col-lg-4 col-sm-6">
+                  <a  class="portfolio-box">
+                      <img src="img/portfolio/thumbnails/4.jpg" class="img-responsive" alt="">
+                      <div class="portfolio-box-caption">
+                          <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded i18nContent">Coming soon...</div>
+                              <div class="project-name">
+                                  The machine
+                              </div>
+                          </div>
+                      </div>
+                  </a>
+              </div>
+
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/5.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded i18nContent">Coming soon...</div>
+                                <div class="project-name">
+                                    Surfboard chamberer
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/6.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded i18nContent">Coming soon...</div>
+                                <div class="project-name">
+                                    Combo leash plug
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!--aside class="bg-dark">
+        <div class="container text-center">
+            <div class="call-to-action">
+                <h2>Free Download at Start Bootstrap!</h2>
+                <a href="https://startbootstrap.com/template-overviews/creative/" class="btn btn-default btn-xl sr-button">Download Now!</a>
+            </div>
+        </div>
+    </aside-->
+
+    <!-- ABOUT -->
+
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading i18nContent">Contact</h2>
+                    <hr class="primary">
+                    <p></p>
+                </div>
+                <div class="col-lg-4 col-lg-offset-2 text-center">
+                    <i class="fa fa-instagram fa-3x sr-contact"></i>
+                    <p><a href="https://www.instagram.com/uo_surfboards/" target="_blank">@uo_surfboards</a></p>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <i class="fa fa-envelope-o fa-3x sr-contact"></i>
+                    <p><a href="mailto:ola@ulaola.site">ola@ulaola.site</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GALERIA -->
+
+    <script src="http://lightwidget.com/widgets/lightwidget.js"></script>
+    <iframe id="galeria" src="http://lightwidget.com/widgets/2b24c685127658fc9c3d02082180d343.html"
+      id="lightwidget_257e90aa8d"
+      name="lightwidget_257e90aa8d"
+      scrolling="no"
+      allowtransparency="true"
+      class="lightwidget-widget"
+      style="width: 100%; border: 0; overflow: hidden; padding:0;">
+    </iframe>
+
+
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+    <!-- Underscore -->
+    <script src="http://underscorejs.org/underscore-min.js"></script>
+    <!-- Backbone -->
+    <script src="http://backbonejs.org/backbone-min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- i18n -->
+    <script src="js/jquery.i18n.js"></script>
+
+    <!-- Plugin JavaScript -->
+
+    <!-- APP -->
+    <script src="js/app.js"></script>
+    <!-- Portada JavaScript -->
+    <script src="js/portada.js"></script>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-87276043-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
 </body>
 
 </html>
