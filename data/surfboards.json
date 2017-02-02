@@ -14,11 +14,11 @@
           "title":"Singlesimmons",
           "description":{
             "es":"Una minisimmons single. Con núcleo de EPX y madera de obeche rematado en aceite, lasur y barniz",
-            "en":"Una minisimmons single. Con núcleo de EPX y madera de obeche rematado en aceite, lasur y barniz",
+            "en":"A single minisimmons.  EPX core and obeche wood finished with oil, lasure and barnish",
             "gl":"Unha minisimmons single. Con núcleo de EPX e madeira de obeche rematado en aceite, lasur e barniz"
           },
           "fins": "Single fin (US-BOX)",
-          "sizes": [152,40,5],
+          "sizes": [152,0,0],
           "weight": [3100],
           "pricing": false
         },
@@ -26,24 +26,24 @@
           "title":"Space oddity",
           "description":{
             "es":"Paulownia con cámara. Con glaseado final en resina epoxi.",
-            "en":"Paulownia chambered. Glassed with epoxy resin.",
+            "en":"Chambered paulownia. Glassed with epoxy resin.",
             "gl":"Paulownia con cámara. Con glaseado final en resina epoxi"
           },
           "fins": "Single fin (US-BOX)",
-          "sizes": [182,40,5],
-          "weight": [3100],
+          "sizes": [182,0,0],
+          "weight": [4100],
           "pricing": false
         },
         "tablon1": {
           "title":"Minimal #1",
           "description":{
-            "es":"Minimalibú. Con núcleo de EPX y madera de okumen rematado en aceite, lasur y barniz",
-            "en":"Minimalibú. Con núcleo de EPX y madera de okumen rematado en aceite, lasur y barniz",
-            "gl":"Minimalibú. Con núcleo de EPX e madeira de okumen rematado en aceite, lasur e barniz"
+            "es":"Minimalibú. Con núcleo de EPX y contrachapado de okumen rematada en aceite, lasur y barniz",
+            "en":"Minimalibu. EPX core and okumen plywood finished with oil, lasure and barnish",
+            "gl":"Minimalibú. Con núcleo de EPX e contrachapado de okumen rematada en aceite, lasur e barniz"
           },
           "fins": "Single fin (US-BOX)",
-          "sizes": [213,40,5],
-          "weight": [4800],
+          "sizes": [213,0,0],
+          "weight": [5200],
           "pricing": false
         }
       }
