@@ -72,6 +72,21 @@ var surfboards = new (Backbone.View.extend({
 
     if( typeof serie != 'undefined' && typeof surfboard != 'undefined' ) {
       that.$el.html( that.template({surfboard:surfboard, serie:serie, serieId:that.currentSerie, surfboardId: that.currentSurfboard }) );
+      $('.foto img').click(function(el){
+        var boardImg = $($(el.target)[0]);
+        var boardImgSrc = boardImg.attr('src').split("_");
+        //if(boardImg)
+        console.log( boardImgSrc[0], boardImgSrc[1]  )
+
+        if( boardImgSrc[1] == '1.jpg') {
+           boardImg.attr('src', boardImgSrc[0] + '_2.jpg' );
+        }
+        else {
+           boardImg.attr('src', boardImgSrc[0] + '_1.jpg' );
+        }
+
+      });
+
       $('.reverseSurfboard').click(function(el){
         var boardImg = $($(el.target).next()[0]);
         var boardImgSrc = boardImg.attr('src').split("_");

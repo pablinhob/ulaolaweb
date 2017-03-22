@@ -62,15 +62,28 @@
       }
     },
 
-    "2_series": {
-      "name": "2 Series",
+    "long": {
+      "name": "Long series",
       "description": {
-        "es":"A tablablabblabla",
-        "en":"A tablablabblabla",
-        "gl":"A tablablabblabla"
+        "es": "",
+        "en":"",
+        "gl":""
       },
-      "defaultBoard": "lol",
-      "boards": []
+      "defaultBoard": "minimal7",
+      "boards": {
+        "minimal7": {
+          "title":"Minimalibu 7",
+          "description":{
+            "es":"Minimalibú 7. Con núcleo de EPX, contrachapado de madera de obeche y rematada en epoxi. Cantos de corcho, para aportar más ligereza y resistencia a golpes.",
+            "en":"Minimalibu. EPX core and okumen plywood finished with oil, lasure and barnish",
+            "gl":"Minimalibú. Con núcleo de EPX e contrachapado de okumen rematada en aceite, lasur e barniz"
+          },
+          "fins": "Single fin (US-BOX)",
+          "sizes": [213,60.96,6.6],
+          "weight": [3100],
+          "pricing": false
+        }
+      }
     },
 
     "custom_series": {

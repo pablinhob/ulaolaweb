@@ -11,7 +11,7 @@
     right:30px;
     top:15px;
   }
-  
+
   .surfboardsContent .descSerie {
     font-size:14px;
   }
@@ -46,5 +46,5 @@
 
 
 .surfboardsContent .foto {
-
+  cursor:pointer;
 }
