@@ -74,9 +74,9 @@
         "minimal7": {
           "title":"Minimalibu 7",
           "description":{
-            "es":"Minimalibú 7. Con núcleo de EPX, contrachapado de madera de obeche y rematada en epoxi. Cantos de corcho, para aportar más ligereza y resistencia a golpes.",
-            "en":"Minimalibu. EPX core and okumen plywood finished with oil, lasure and barnish",
-            "gl":"Minimalibú. Con núcleo de EPX e contrachapado de okumen rematada en aceite, lasur e barniz"
+            "es":"Minimalibú 7. Con núcleo de EPX, madera de obeche y rematada en epoxi. Cantos de corcho, para aportar más ligereza y resistencia a golpes.",
+            "en":"Minimalibu. EPX core and obeche wood, finish with an epoxy resin. Cork rails",
+            "gl":"Minimalibú. Con núcleo de EPX madera de obeche e rematada en epoxi. Cantos de corcho, para aportar máis lixeireza e resistencia a golpes."
           },
           "fins": "Single fin (US-BOX)",
           "sizes": [213,60.96,6.6],
