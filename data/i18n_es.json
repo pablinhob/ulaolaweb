@@ -2,13 +2,13 @@
   "index.html#page-top": "index.html#es/page-top",
   "#page-top": "#es/page-top",
 
-  "index.html#surfboards" : "index.html#es/surfboards",
-  "index.html#makers" : "index.html#es/makers",
-  "inspirations.html" : "inspirations.html#es",
-  "index.html#manifest" : "index.html#es/manifest",
+  "index.html#surfboards" : "index.html#!es/surfboards",
+  "index.html#makers" : "index.html#!es/makers",
+  "inspirations.html" : "inspirations.html#!es",
+  "index.html#manifest" : "index.html#!es/manifest",
 
-  "surfboards.html#research" : "surfboards.html#es/research",
-  "surfboards.html#long" : "surfboards.html#es/long",
+  "surfboards.html#!research" : "surfboards.html#!es/research",
+  "surfboards.html#!long" : "surfboards.html#!es/long",
 
   "We are makers": "Somos makers",
   "Inspirations": "Inspiraciones",

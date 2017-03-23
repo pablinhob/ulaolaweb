@@ -76,7 +76,7 @@
             <% _.each( serie.boards , function(b, i) { %>
 
               <div class="col-xs-3">
-                <a href="#<%= app.currentLang %>/<%-serieId%>/<%-i%>">
+                <a href="#!<%= app.currentLang %>/<%-serieId%>/<%-i%>">
                   <div class="medidas"><%- surfboards.cmToFeets( b.sizes[0] ) %></div>
                   <img src="data/surfboardImages/<%-i%>_1.jpg" class="img-responsive">
                 </a>
@@ -104,9 +104,9 @@
              <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">GL
              <span class="caret"></span></button>
              <ul class="dropdown-menu">
-               <li><a href="#gl">GL</a></li>
-               <li><a href="#es">ES</a></li>
-               <li><a href="#en">EN</a></li>
+               <li><a href="#!gl">GL</a></li>
+               <li><a href="#!es">ES</a></li>
+               <li><a href="#!en">EN</a></li>
              </ul>
             </div>
 
@@ -167,7 +167,7 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="surfboards.html#long" class="i18nLink portfolio-box">
+                    <a href="surfboards.html#!long" class="i18nLink portfolio-box">
                         <img src="img/portfolio/thumbnails/long.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -182,7 +182,7 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="surfboards.html#research" class="i18nLink portfolio-box">
+                    <a href="surfboards.html#!research" class="i18nLink portfolio-box">
                         <img src="img/portfolio/thumbnails/custom.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">

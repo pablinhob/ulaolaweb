@@ -10,10 +10,10 @@ var app = {
 
 app.router = new (Backbone.Router.extend({
   routes: {
-    "en(/:currentSection)(/:subSection)": "langEn",
-    "es(/:currentSection)(/:subSection)": "langEs",
-    "gl(/:currentSection)(/:subSection)": "langGl",
-    "(:currentSection)(/:subSection)": "noLang",
+    "!en(/:currentSection)(/:subSection)": "langEn",
+    "!es(/:currentSection)(/:subSection)": "langEs",
+    "!gl(/:currentSection)(/:subSection)": "langGl",
+    "!(:currentSection)(/:subSection)": "noLang",
     "": "noLang"
   },
 
@@ -31,10 +31,10 @@ app.router = new (Backbone.Router.extend({
   },
   noLang: function(currentSection, subSection) {
     if(currentSection && subSection) {
-      app.router.navigate('gl/'+currentSection+'/'+subSection, true);
+      app.router.navigate('!gl/'+currentSection+'/'+subSection, true);
     }
     else {
-      app.router.navigate('gl', true);
+      app.router.navigate('!gl', true);
     }
 
   }

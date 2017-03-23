@@ -1,14 +1,14 @@
 {
-  "index.html#page-top": "index.html#en/page-top",
-  "#page-top": "#en/page-top",
+  "index.html#page-top": "index.html#!en/page-top",
+  "#page-top": "#!en/page-top",
 
-  "index.html#surfboards" : "index.html#en/surfboards",
-  "index.html#makers" : "index.html#en/makers",
-  "inspirations.html" : "inspirations.html#en",
-  "index.html#manifest" : "index.html#en/manifest",
+  "index.html#surfboards" : "index.html#!en/surfboards",
+  "index.html#makers" : "index.html#!en/makers",
+  "inspirations.html" : "inspirations.html#!en",
+  "index.html#manifest" : "index.html#!en/manifest",
 
-  "surfboards.html#research" : "surfboards.html#en/research",
-  "surfboards.html#long" : "surfboards.html#en/long",
+  "surfboards.html#!research" : "surfboards.html#!en/research",
+  "surfboards.html#!long" : "surfboards.html#!en/long",
 
 
 

@@ -23,7 +23,7 @@ var surfboards = new (Backbone.View.extend({
 
     var serie = that.data.defaultSerie;
     eval('var surfboard = that.data.series.'+serie+'.defaultBoard;');
-    app.router.navigate( '#'+app.currentLang + '/'+that.data.defaultSerie+'/'+surfboard , {trigger: true, replace: true});
+    app.router.navigate( '#!'+app.currentLang + '/'+that.data.defaultSerie+'/'+surfboard , {trigger: true, replace: true});
   },
 
   selectSerie: function( serie ) {
@@ -31,7 +31,7 @@ var surfboards = new (Backbone.View.extend({
 
     eval('var surfboard = that.data.series.'+serie+'.defaultBoard;');
 
-    app.router.navigate( '#'+app.currentLang + '/'+serie+'/'+surfboard, {trigger: true, replace: true});
+    app.router.navigate( '#!'+app.currentLang + '/'+serie+'/'+surfboard, {trigger: true, replace: true});
   },
   selectSurfoard: function( serie, surfboard ) {
     var that = this;
