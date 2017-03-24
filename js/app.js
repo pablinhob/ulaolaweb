@@ -18,18 +18,34 @@ app.router = new (Backbone.Router.extend({
   },
 
   langEn: function(currentSection, subSection) {
+    ga('send', {
+      'hitType': 'pageview',
+      'page': "/"+currentSection+"/" + subSection
+    });
     app.setLang('en');
     app.loadSection(currentSection, subSection);
   },
   langEs: function(currentSection, subSection) {
+    ga('send', {
+      'hitType': 'pageview',
+      'page': "/"+currentSection+"/" + subSection
+    });
     app.setLang('es');
     app.loadSection(currentSection, subSection);
   },
   langGl: function(currentSection, subSection) {
+    ga('send', {
+      'hitType': 'pageview',
+      'page': "/"+currentSection+"/" + subSection
+    });
     app.setLang('gl');
     app.loadSection(currentSection, subSection);
   },
   noLang: function(currentSection, subSection) {
+    ga('send', {
+      'hitType': 'pageview',
+      'page': "/"+currentSection+"/" + subSection
+    });
     if(currentSection && subSection) {
       app.router.navigate('!gl/'+currentSection+'/'+subSection, true);
     }
