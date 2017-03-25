@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://ulaola.site" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ulaola.site">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 <url>
   <loc>http://ulaola.site/</loc>
@@ -11,6 +10,72 @@
 <url>
   <loc>http://ulaola.site/surfboards.html</loc>
 </url>
+<url>
+  <loc>http://ulaola.site/surfboards.html#!long/minimal7</loc>
+</url>
+
+
+<!-- Tablas-->
+
+<url>
+  <loc>http://ulaola.site/surfboards.html#!research/singlesimmons</loc>
+</url>
+<url>
+  <loc>http://ulaola.site/surfboards.html#!research/shortpanda</loc>
+</url>
+<url>
+  <loc>http://ulaola.site/surfboards.html#!research/spaceoddity</loc>
+</url>
+<url>
+  <loc>http://ulaola.site/surfboards.html#!research/tablon1</loc>
+</url>
+
+<!-- Tablas en -->
+
+<url>
+  <loc>http://ulaola.site/surfboards.html#!en/research/singlesimmons</loc>
+</url>
+<url>
+  <loc>http://ulaola.site/surfboards.html#!en/research/shortpanda</loc>
+</url>
+<url>
+  <loc>http://ulaola.site/surfboards.html#!en/research/spaceoddity</loc>
+</url>
+<url>
+  <loc>http://ulaola.site/surfboards.html#!en/research/tablon1</loc>
+</url>
+
+<!-- Tablas es-->
+<url>
+  <loc>http://ulaola.site/surfboards.html#!es/research/singlesimmons</loc>
+</url>
+<url>
+  <loc>http://ulaola.site/surfboards.html#!es/research/shortpanda</loc>
+</url>
+<url>
+  <loc>http://ulaola.site/surfboards.html#!es/research/spaceoddity</loc>
+</url>
+<url>
+  <loc>http://ulaola.site/surfboards.html#!es/research/tablon1</loc>
+</url>
+
+<!-- Tablas gl-->
+<url>
+  <loc>http://ulaola.site/surfboards.html#!gl/research/singlesimmons</loc>
+</url>
+<url>
+  <loc>http://ulaola.site/surfboards.html#!gl/research/shortpanda</loc>
+</url>
+<url>
+  <loc>http://ulaola.site/surfboards.html#!gl/research/spaceoddity</loc>
+</url>
+<url>
+  <loc>http://ulaola.site/surfboards.html#!gl/research/tablon1</loc>
+</url>
+
+
+
+
 <url>
   <loc>http://ulaola.site/index.html</loc>
 </url>
