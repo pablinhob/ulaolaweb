@@ -17,35 +17,34 @@ app.router = new (Backbone.Router.extend({
     "": "noLang"
   },
 
+  registerAnalytics: function(currentSection, subSection) {
+
+    if( currentSection &&  subSection ) {
+      ga('send', {
+        'hitType': 'pageview',
+        'page': location.pathname.match(/[^\/]+$/)[0]+"#!"+currentSection+"/" + subSection
+      });
+    }
+
+  },
+
   langEn: function(currentSection, subSection) {
-    ga('send', {
-      'hitType': 'pageview',
-      'page': "/"+currentSection+"/" + subSection
-    });
+    this.registerAnalytics(currentSection, subSection);
     app.setLang('en');
     app.loadSection(currentSection, subSection);
   },
   langEs: function(currentSection, subSection) {
-    ga('send', {
-      'hitType': 'pageview',
-      'page': "/"+currentSection+"/" + subSection
-    });
+    this.registerAnalytics(currentSection, subSection);
     app.setLang('es');
     app.loadSection(currentSection, subSection);
   },
   langGl: function(currentSection, subSection) {
-    ga('send', {
-      'hitType': 'pageview',
-      'page': "/"+currentSection+"/" + subSection
-    });
+    this.registerAnalytics(currentSection, subSection);
     app.setLang('gl');
     app.loadSection(currentSection, subSection);
   },
   noLang: function(currentSection, subSection) {
-    ga('send', {
-      'hitType': 'pageview',
-      'page': "/"+currentSection+"/" + subSection
-    });
+    this.registerAnalytics(currentSection, subSection);
     if(currentSection && subSection) {
       app.router.navigate('!gl/'+currentSection+'/'+subSection, true);
     }
