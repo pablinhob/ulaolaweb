@@ -38,6 +38,7 @@ var surfboards = new (Backbone.View.extend({
     that.currentSerie = serie;
     that.currentSurfboard = surfboard;
 
+
     that.render();
     window.scrollTo(0, 0);
   },
@@ -101,6 +102,7 @@ var surfboards = new (Backbone.View.extend({
 
       });
     }
+
     else {
       that.selectNoserie();
     }
@@ -121,6 +123,7 @@ $(document).ready( function(){
 
 
   surfboards.loadData( function() {
+
     app.loadSection = function( section, subsection ){
       if( section && subsection ){
         //alert("serie "+section+" tabla" + subsection);

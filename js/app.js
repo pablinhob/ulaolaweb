@@ -44,9 +44,15 @@ app.router = new (Backbone.Router.extend({
     app.loadSection(currentSection, subSection);
   },
   noLang: function(currentSection, subSection) {
+
+
     this.registerAnalytics(currentSection, subSection);
     if(currentSection && subSection) {
       app.router.navigate('!gl/'+currentSection+'/'+subSection, true);
+    }
+    else if(currentSection) {
+
+      app.router.navigate('!gl/'+currentSection, true);
     }
     else {
       app.router.navigate('!gl', true);
