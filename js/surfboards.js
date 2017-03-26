@@ -68,10 +68,13 @@ var surfboards = new (Backbone.View.extend({
   render: function() {
     var that = this;
 
-      eval('var surfboard = that.data.series.' + that.currentSerie + '.boards.' + that.currentSurfboard );
-      eval('var serie = that.data.series.' + that.currentSerie );
+    eval('var surfboard = that.data.series.' + that.currentSerie + '.boards.' + that.currentSurfboard );
+    eval('var serie = that.data.series.' + that.currentSerie );
 
     if( typeof serie != 'undefined' && typeof surfboard != 'undefined' ) {
+
+      document.title = 'Ula ola - Surfboard - ' + surfboard.title;
+      eval("$('meta[name=description]').attr('content', surfboard.description."+app.currentLang+" );");
       that.$el.html( that.template({surfboard:surfboard, serie:serie, serieId:that.currentSerie, surfboardId: that.currentSurfboard }) );
 
       // Click foto
