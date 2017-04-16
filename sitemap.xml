@@ -1,85 +1,211 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+  <loc>http://ulaola.site/#!en/page-top</loc>
+  <lastmod>2017-04-15T09:19:14.875Z</lastmod>
+</url>
+<url>
+  <loc>http://ulaola.site/surfboards.html#!en/long/minimal7</loc>
+  <lastmod>2017-04-15T09:19:10.807Z</lastmod>
+</url>
+<url>
+  <loc>http://ulaola.site/surfboards.html#!es/long/minimal7</loc>
+  <lastmod>2017-04-15T09:19:07.259Z</lastmod>
+</url>
+<url>
+  <loc>http://ulaola.site/#!gl</loc>
+  <lastmod>2017-04-15T09:19:03.369Z</lastmod>
+</url>
+<url>
+  <loc>http://ulaola.site/#!es</loc>
+  <lastmod>2017-04-15T09:18:59.583Z</lastmod>
+</url>
+<url>
+  <loc>http://ulaola.site/#!en</loc>
+  <lastmod>2017-04-15T09:18:55.749Z</lastmod>
+</url>
+<url>
+  <loc>http://ulaola.site/#!surfboards</loc>
+  <lastmod>2017-04-15T09:18:51.954Z</lastmod>
+</url>
+<url>
+  <loc>http://ulaola.site/surfboards.html#!gl/long/minimal7</loc>
+  <lastmod>2017-04-15T09:18:47.366Z</lastmod>
+</url>
+<url>
+  <loc>http://ulaola.site/index.html#!en/page-top</loc>
+  <lastmod>2017-04-15T09:18:43.720Z</lastmod>
+</url>
+<url>
+  <loc>http://ulaola.site/index.html#!en/surfboards</loc>
+  <lastmod>2017-04-15T09:18:39.736Z</lastmod>
+</url>
+<url>
+  <loc>http://ulaola.site/index.html#!en/makers</loc>
+  <lastmod>2017-04-15T09:18:36.107Z</lastmod>
+</url>
+<url>
+  <loc>http://ulaola.site/inspirations.html#!en</loc>
+  <lastmod>2017-04-15T09:18:32.456Z</lastmod>
+</url>
+<url>
+  <loc>http://ulaola.site/surfboards.html#!en/long</loc>
+  <lastmod>2017-04-15T09:18:28.870Z</lastmod>
+</url>
+<url>
+  <loc>http://ulaola.site/surfboards.html#!en/research</loc>
+  <lastmod>2017-04-15T09:18:25.029Z</lastmod>
+</url>
+<url>
+  <loc>http://ulaola.site/index.html#!es/surfboards</loc>
+  <lastmod>2017-04-15T09:18:21.012Z</lastmod>
+</url>
+<url>
+  <loc>http://ulaola.site/index.html#!es/makers</loc>
+  <lastmod>2017-04-15T09:18:16.777Z</lastmod>
+</url>
+<url>
+  <loc>http://ulaola.site/inspirations.html#!es</loc>
+  <lastmod>2017-04-15T09:18:13.134Z</lastmod>
+</url>
+<url>
+  <loc>http://ulaola.site/surfboards.html#!es/long</loc>
+  <lastmod>2017-04-15T09:18:09.473Z</lastmod>
+</url>
+<url>
+  <loc>http://ulaola.site/surfboards.html#!es/research</loc>
+  <lastmod>2017-04-15T09:18:05.860Z</lastmod>
+</url>
+<url>
+  <loc>http://ulaola.site/surfboards.html#!gl</loc>
+  <lastmod>2017-04-15T09:18:02.112Z</lastmod>
+</url>
+<url>
+  <loc>http://ulaola.site/surfboards.html#!es</loc>
+  <lastmod>2017-04-15T09:17:58.349Z</lastmod>
+</url>
+<url>
+  <loc>http://ulaola.site/surfboards.html#!en</loc>
+  <lastmod>2017-04-15T09:17:54.702Z</lastmod>
+</url>
+<url>
+  <loc>http://ulaola.site/index.html#!gl/surfboards</loc>
+  <lastmod>2017-04-15T09:17:51.093Z</lastmod>
+</url>
+<url>
+  <loc>http://ulaola.site/index.html#!gl/makers</loc>
+  <lastmod>2017-04-15T09:17:47.392Z</lastmod>
+</url>
+<url>
+  <loc>http://ulaola.site/index.html#!gl</loc>
+  <lastmod>2017-04-15T09:17:43.747Z</lastmod>
+</url>
+<url>
+  <loc>http://ulaola.site/index.html#!es</loc>
+  <lastmod>2017-04-15T09:17:39.989Z</lastmod>
+</url>
+<url>
+  <loc>http://ulaola.site/index.html#!en</loc>
+  <lastmod>2017-04-15T09:17:35.978Z</lastmod>
+</url>
+<url>
+  <loc>http://ulaola.site/inspirations.html#!gl</loc>
+  <lastmod>2017-04-15T09:17:32.357Z</lastmod>
+</url>
+<url>
+  <loc>http://ulaola.site/index.html#!surfboards</loc>
+  <lastmod>2017-04-15T09:17:28.755Z</lastmod>
+</url>
+<url>
+  <loc>http://ulaola.site/surfboards.html#!gl/long</loc>
+  <lastmod>2017-04-15T09:17:25.074Z</lastmod>
+</url>
+<url>
+  <loc>http://ulaola.site/surfboards.html#!gl/research</loc>
+  <lastmod>2017-04-15T09:17:21.500Z</lastmod>
+</url>
 <url>
   <loc>http://ulaola.site/</loc>
+  <lastmod>2017-04-15T09:17:17.920Z</lastmod>
 </url>
 <url>
   <loc>http://ulaola.site/inspirations.html</loc>
+  <lastmod>2017-04-15T09:17:14.224Z</lastmod>
 </url>
 <url>
   <loc>http://ulaola.site/surfboards.html</loc>
+  <lastmod>2017-04-15T09:17:09.881Z</lastmod>
 </url>
 <url>
   <loc>http://ulaola.site/surfboards.html#!long/minimal7</loc>
+  <lastmod>2017-04-15T09:17:05.632Z</lastmod>
 </url>
-
-
-<!-- Tablas-->
-
 <url>
   <loc>http://ulaola.site/surfboards.html#!research/singlesimmons</loc>
+  <lastmod>2017-04-15T09:17:02.023Z</lastmod>
 </url>
 <url>
   <loc>http://ulaola.site/surfboards.html#!research/shortpanda</loc>
+  <lastmod>2017-04-15T09:16:58.299Z</lastmod>
 </url>
 <url>
   <loc>http://ulaola.site/surfboards.html#!research/spaceoddity</loc>
+  <lastmod>2017-04-15T09:16:54.511Z</lastmod>
 </url>
 <url>
   <loc>http://ulaola.site/surfboards.html#!research/tablon1</loc>
+  <lastmod>2017-04-15T09:16:50.305Z</lastmod>
 </url>
-
-<!-- Tablas en -->
-
 <url>
   <loc>http://ulaola.site/surfboards.html#!en/research/singlesimmons</loc>
+  <lastmod>2017-04-15T09:16:46.524Z</lastmod>
 </url>
 <url>
   <loc>http://ulaola.site/surfboards.html#!en/research/shortpanda</loc>
+  <lastmod>2017-04-15T09:16:42.371Z</lastmod>
 </url>
 <url>
   <loc>http://ulaola.site/surfboards.html#!en/research/spaceoddity</loc>
+  <lastmod>2017-04-15T09:16:38.339Z</lastmod>
 </url>
 <url>
   <loc>http://ulaola.site/surfboards.html#!en/research/tablon1</loc>
+  <lastmod>2017-04-15T09:16:34.334Z</lastmod>
 </url>
-
-<!-- Tablas es-->
 <url>
   <loc>http://ulaola.site/surfboards.html#!es/research/singlesimmons</loc>
+  <lastmod>2017-04-15T09:16:29.909Z</lastmod>
 </url>
 <url>
   <loc>http://ulaola.site/surfboards.html#!es/research/shortpanda</loc>
+  <lastmod>2017-04-15T09:16:26.145Z</lastmod>
 </url>
 <url>
   <loc>http://ulaola.site/surfboards.html#!es/research/spaceoddity</loc>
+  <lastmod>2017-04-15T09:16:16.277Z</lastmod>
 </url>
 <url>
   <loc>http://ulaola.site/surfboards.html#!es/research/tablon1</loc>
+  <lastmod>2017-04-15T09:16:12.656Z</lastmod>
 </url>
-
-<!-- Tablas gl-->
 <url>
   <loc>http://ulaola.site/surfboards.html#!gl/research/singlesimmons</loc>
+  <lastmod>2017-04-15T09:16:08.842Z</lastmod>
 </url>
 <url>
   <loc>http://ulaola.site/surfboards.html#!gl/research/shortpanda</loc>
+  <lastmod>2017-04-15T09:16:05.208Z</lastmod>
 </url>
 <url>
   <loc>http://ulaola.site/surfboards.html#!gl/research/spaceoddity</loc>
+  <lastmod>2017-04-15T09:16:01.484Z</lastmod>
 </url>
 <url>
   <loc>http://ulaola.site/surfboards.html#!gl/research/tablon1</loc>
+  <lastmod>2017-04-15T09:15:57.948Z</lastmod>
 </url>
-
-
-
-
 <url>
   <loc>http://ulaola.site/index.html</loc>
+  <lastmod>2017-04-15T09:15:54.280Z</lastmod>
 </url>
 </urlset>
