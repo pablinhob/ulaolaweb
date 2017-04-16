@@ -22,6 +22,7 @@ var surfboards = new (Backbone.View.extend({
     var that = this;
 
     var serie = that.data.defaultSerie;
+
     eval('var surfboard = that.data.series.'+serie+'.defaultBoard;');
     app.router.navigate( '#!'+app.currentLang + '/'+that.data.defaultSerie+'/'+surfboard , {trigger: true, replace: true});
   },
@@ -44,6 +45,7 @@ var surfboards = new (Backbone.View.extend({
   },
   loadData: function( onLoad ) {
     var that = this;
+    $.ajaxSetup({cache: false })
     $.getJSON( "data/surfboards.json", function( data ) {
       that.data = data;
       onLoad();

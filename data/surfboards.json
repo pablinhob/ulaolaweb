@@ -86,11 +86,30 @@
       }
     },
 
-    "custom_series": {
-      "name": "Custom Series",
-      "description": "",
-      "defaultBoard": "lol",
-      "boards": []
+
+    "openprojects": {
+      "name": "Open source projects",
+      "description": {
+        "es": "",
+        "en":"",
+        "gl":""
+      },
+      "defaultBoard": "machine",
+      "boards": {
+        "machine": {
+          "title":"The machine",
+          "description":{
+            "es":"Steel shapeoko is a project based on the projects <a target='_blank' href='https://www.shapeoko.com/wiki/index.php/ShapeOko_2'>Shapeoko</a> and <a target='_blank' href='http://reprap.org/'>RepRap</a>, is made by steel tubes and <a target='_blank' href='https://www.kickstarter.com/projects/openrail/openrail-open-source-linear-bearing-system'>OpenRail</a>.<br><ul><li> <a target='_blank' href='http://www.instructables.com/id/Customizable-and-Autonomous-CNC-machine/'>Project instructions</a></li> <li> <a target='_blank' href='https://github.com/pablinhob/steel_shapeoko2'>The project source code on GitHub</a></li> </ul>",
+            "en":"Steel shapeoko is a project based on the projects <a target='_blank' href='https://www.shapeoko.com/wiki/index.php/ShapeOko_2'>Shapeoko</a> and <a target='_blank' href='http://reprap.org/'>RepRap</a>, is made by steel tubes and <a target='_blank' href='https://www.kickstarter.com/projects/openrail/openrail-open-source-linear-bearing-system'>OpenRail</a>.<br><ul><li> <a target='_blank' href='http://www.instructables.com/id/Customizable-and-Autonomous-CNC-machine/'>Project instructions</a></li> <li> <a target='_blank' href='https://github.com/pablinhob/steel_shapeoko2'>The project source code on GitHub</a></li> </ul>",
+            "gl":"Steel shapeoko is a project based on the projects <a target='_blank' href='https://www.shapeoko.com/wiki/index.php/ShapeOko_2'>Shapeoko</a> and <a target='_blank' href='http://reprap.org/'>RepRap</a>, is made by steel tubes and <a target='_blank' href='https://www.kickstarter.com/projects/openrail/openrail-open-source-linear-bearing-system'>OpenRail</a>.<br><ul><li> <a target='_blank' href='http://www.instructables.com/id/Customizable-and-Autonomous-CNC-machine/'>Project instructions</a></li> <li> <a target='_blank' href='https://github.com/pablinhob/steel_shapeoko2'>The project source code on GitHub</a></li> </ul>"
+          },
+          "fins": false,
+          "sizes": false,
+          "weight": false,
+          "pricing": false
+        }
+      }
     }
+
   }
 }
