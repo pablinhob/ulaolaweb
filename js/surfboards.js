@@ -6,7 +6,7 @@ var surfboards = new (Backbone.View.extend({
 
   el: "#surfboardsContent",
   template: _.template( $('#surfboardTemplate').html() ),
-
+  templateSerie: _.template( $('#serie').html() ),
   events: {
 /*    "click .icon":          "open",
     "click .button.edit":   "openEditDialog",
@@ -23,8 +23,8 @@ var surfboards = new (Backbone.View.extend({
 
     var serie = that.data.defaultSerie;
 
-    eval('var surfboard = that.data.series.'+serie+'.defaultBoard;');
-    app.router.navigate( '#!'+app.currentLang + '/'+that.data.defaultSerie+'/'+surfboard , {trigger: true, replace: true});
+    //eval('var surfboard = that.data.series.'+serie+'.defaultBoard;');
+    app.router.navigate( '#!'+app.currentLang + '/'+that.data.defaultSerie);
   },
 
   selectSerie: function( serie ) {
@@ -32,7 +32,9 @@ var surfboards = new (Backbone.View.extend({
 
     eval('var surfboard = that.data.series.'+serie+'.defaultBoard;');
 
-    app.router.navigate( '#!'+app.currentLang + '/'+serie+'/'+surfboard, {trigger: true, replace: true});
+    //app.router.navigate( '#!'+app.currentLang + '/'+serie+'/'+surfboard, {trigger: true, replace: true});
+    that.currentSerie = serie;
+    that.renderSerie();
   },
   selectSurfoard: function( serie, surfboard ) {
     var that = this;
@@ -102,7 +104,7 @@ var surfboards = new (Backbone.View.extend({
            boardImg.attr('src', boardImgSrc[0] + '_2.jpg' );
         }
         else {
-           boardImg.attr('src', boardImgSrc[0] + '_1.jpg' );
+           boardImg.attr('src', boFardImgSrc[0] + '_1.jpg' );
         }
 
       });
@@ -111,14 +113,19 @@ var surfboards = new (Backbone.View.extend({
     else {
       that.selectNoserie();
     }
+  },
 
+  renderSerie: function() {
+    var that = this;
+    eval('var serie = that.data.series.' + that.currentSerie );
 
+    console.log(serie)
+    //document.title = 'Ula ola - Surfboard - ' + surfboard.title;
+    //eval("$('meta[name=description]').attr('content', surfboard.description."+app.currentLang+" );");
+    that.$el.html( that.templateSerie({serie:serie, serieId: that.currentSerie }) );
 
+    window.scrollTo(0, 0);
   }
-
-
-
-
 
 }));
 

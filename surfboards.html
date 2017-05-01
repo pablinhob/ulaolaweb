@@ -39,7 +39,7 @@
 
   <!-- Templates -->
   <script type="text/template" id="surfboardTemplate" >
-    <div class="row" style="max-width:1200;margin-right:auto;margin-left:auto;">
+    <div class="row" style="">
       <div class="col-sm-7 foto"  >
         <i class="fa fa-3x fa-angle-double-right reverseSurfboard"></i>
         <img src="data/surfboardImages/<%-surfboardId%>_1.jpg" class="img-responsive">
@@ -88,6 +88,29 @@
 
 
       </div>
+
+    </div>
+  </script>
+
+  <script type="text/template" id="serie" >
+    <div class="" style="max-width:1200;margin-right:auto;margin-left:auto;">
+
+      <h2><%- serie.name %></h2>
+      <p class="descSerie"><%= eval('serie.description.'+app.currentLang) %></p>
+      <div class="row">
+        <% _.each( serie.boards , function(b, i) { %>
+
+          <div class="col-sm-4" style="margin-top:10px;">
+            <a href="#!<%= app.currentLang %>/<%-serieId%>/<%-i%>">
+              <% if(b.sizes!= false){%><div class="medidas"><%-b.title %> (<%- surfboards.cmToFeets( b.sizes[0] ) %>)</div><%}%>
+              <img src="data/surfboardImages/<%-i%>_1.jpg" style="width:100%;">
+            </a>
+          </div>
+
+        <%}); %>
+      </div>
+
+
 
     </div>
   </script>
@@ -148,6 +171,7 @@
 
     <section class="no-padding" id="portfolio">
         <div class="container-fluid">
+          <h2>All series</h2>
             <div class="row no-gutter popup-gallery">
 
 
