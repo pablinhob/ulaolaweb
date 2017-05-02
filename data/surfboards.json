@@ -111,9 +111,9 @@
         "models": {
           "title":"Models an Gcode resizer",
           "description":{
-            "es":"Ula Ola surfboards are designed with BoardCad, edited in Rhinoceros3D and final GCode is generated with MeshCam.<br><br>All data is licensed as GNU-GPLv3 and hosted on gitHub <br><br><a target='_blank' href='https://github.com/ulaola/surfboardModels'>https://github.com/ulaola/surfboardModels</a>",
-            "en":"Ula Ola surfboards are designed with BoardCad, edited in Rhinoceros3D and final GCode is generated with MeshCam.<br><br>All data is licensed as GNU-GPLv3 and hosted on gitHub <br><br><a target='_blank' href='https://github.com/ulaola/surfboardModels'>https://github.com/ulaola/surfboardModels</a>",
-            "gl":"Ula Ola surfboards are designed with BoardCad, edited in Rhinoceros3D and final GCode is generated with MeshCam.<br><br>All data is licensed as GNU-GPLv3 and hosted on gitHub <br><br><a target='_blank' href='https://github.com/ulaola/surfboardModels'>https://github.com/ulaola/surfboardModels</a>"
+            "es":"Ula Ola surfboards are designed with BoardCad, edited in Rhinoceros3D and final GCode is generated with MeshCam.<br><br>All work is licensed as GNU-GPLv3 and hosted on gitHub <br><br><a target='_blank' href='https://github.com/ulaola/surfboardModels'>https://github.com/ulaola/surfboardModels</a>",
+            "en":"Ula Ola surfboards are designed with BoardCad, edited in Rhinoceros3D and final GCode is generated with MeshCam.<br><br>All work is licensed as GNU-GPLv3 and hosted on gitHub <br><br><a target='_blank' href='https://github.com/ulaola/surfboardModels'>https://github.com/ulaola/surfboardModels</a>",
+            "gl":"Ula Ola surfboards are designed with BoardCad, edited in Rhinoceros3D and final GCode is generated with MeshCam.<br><br>All work is licensed as GNU-GPLv3 and hosted on gitHub <br><br><a target='_blank' href='https://github.com/ulaola/surfboardModels'>https://github.com/ulaola/surfboardModels</a>"
           },
           "fins": false,
           "sizes": false,
