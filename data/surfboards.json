@@ -102,9 +102,9 @@
     "stubby": {
       "name": "Short series",
       "description": {
-        "es": "",
-        "en":"",
-        "gl":""
+        "es": "Decoración de <a href='http://iriavarela.com'>Iria Varela</a>",
+        "en": "Decoration by <a href='http://iriavarela.com'>Iria Varela</a>",
+        "gl":" Decoración de <a href='http://iriavarela.com'>Iria Varela</a>"
       },
       "defaultBoard": "stubby",
       "boards": {
