@@ -102,26 +102,40 @@
     "stubby": {
       "name": "Short series",
       "description": {
-        "es": "Decoración de <a href='http://iriavarela.com'>Iria Varela</a>",
-        "en": "Decoration by <a href='http://iriavarela.com'>Iria Varela</a>",
-        "gl":" Decoración de <a href='http://iriavarela.com'>Iria Varela</a>"
+        "es": "",
+        "en": "",
+        "gl": ""
       },
       "defaultBoard": "stubby",
       "boards": {
         "stubby": {
           "title":"Stubby",
           "description":{
-            "es":"",
-            "en":"",
-            "gl":""
+            "es":"Con núcleo de EPX, madera de obeche y cantos de corcho. Decoración de <a href='http://iriavarela.com'>Iria Varela</a>",
+            "en":"EPX core and obeche wood and cork rails. Decoration by <a href='http://iriavarela.com'>Iria Varela</a>",
+            "gl":"Con núcleo de EPX madera de obeche e cantos de corcho. Decoración de <a href='http://iriavarela.com'>Iria Varela</a>"
           },
           "fins": "Single fin (US-BOX)",
-          "sizes": [182,52,6.5],
+          "sizes": [192,62,6.5],
+          "weight": false,
+          "pricing": false
+        },
+        "stubbyB": {
+          "title":"Stubby",
+          "description":{
+            "es":"Con núcleo de EPX, madera de obeche y rematada en epoxi. Cantos de corcho, para aportar más ligereza y resistencia a golpes.",
+            "en":"EPX core and obeche wood, finish with an epoxy resin. Cork rails",
+            "gl":"Con núcleo de EPX madera de obeche e rematada en epoxi. Cantos de corcho, para aportar máis lixeireza e resistencia a golpes."
+          },
+          "fins": "Single fin (US-BOX)",
+          "sizes": [197,62,6.5],
           "weight": false,
           "pricing": false
         }
       }
     },
+
+
 
 
     "openprojects": {
