@@ -94,6 +94,18 @@
           "sizes": [243.84,60.96,6.6],
           "weight": [3200],
           "pricing": false
+        },
+        "miniminimal": {
+          "title":"Minimalibu 6' 6\" ",
+          "description":{
+            "es":"Minimalibú 6' 6\". Con núcleo de EPX, madera de obeche y rematada en epoxi. Cantos de corcho, para aportar más ligereza y resistencia a golpes.",
+            "en":"Minimalibu 6' 6\". EPX core and obeche wood, finish with an epoxy resin. Cork rails",
+            "gl":"Minimalibú 6' 6\". Con núcleo de EPX madera de obeche e rematada en epoxi. Cantos de corcho, para aportar máis lixeireza e resistencia a golpes."
+          },
+          "fins": "Single fin (US-BOX)",
+          "sizes": [197,60.96,6.6],
+          "weight": [3200],
+          "pricing": false
         }
       }
     },
