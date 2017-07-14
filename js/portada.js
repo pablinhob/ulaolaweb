@@ -10,8 +10,30 @@ $(document).ready( function(){
   }
 
   Backbone.history.start();
+
+  setTimeout(
+
+      function(){
+        dimensionaVideo();
+      }
+  , 1000 );
+
+
+  $( window ).resize(function() {
+    dimensionaVideo();
+  });
 });
 
+
+function dimensionaVideo() {
+  if($(window).width()>800) {
+    $('#video_portada').css('top', -30 );
+    $('#video_portada').height( $($('header')[0]).height()+30 );
+  }
+  else{
+    $('#video_portada').height( 0 );
+  }
+}
 
 
 (function($) {
@@ -43,6 +65,8 @@ $(document).ready( function(){
             top: 100
         }
     })
+
+
 
     // Initialize and Configure Scroll Reveal Animation
 /*    window.sr = ScrollReveal();
