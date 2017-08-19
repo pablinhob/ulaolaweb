@@ -29,6 +29,24 @@
       font-size:24px;
       font-weight: bold;
     }
+
+    .surfboardsContent .ficha .precio {
+      font-size:20px;
+    }
+    .surfboardsContent .ficha .nodisponible {
+      background-color:red;
+      border-radius:3px;
+      padding:3px;
+      color:white;
+    }
+    .surfboardsContent .ficha .interesado {
+      
+
+      margin-top:10px;
+      color:black;
+    }
+
+
     .surfboardsContent .tablaconcreta {
       margin-top:15px;
       font-size:17px;

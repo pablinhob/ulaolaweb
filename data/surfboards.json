@@ -13,14 +13,14 @@
         "singlesimmons": {
           "title":"Singlesimmons",
           "description":{
-            "es":"Una minisimmons single de cóncavo simple. Con núcleo de EPX y madera de obeche rematado en aceite, lasur y barniz",
-            "en":"A single minisimmons with simple concave.  EPX core and obeche wood finished with oil, lasure and barnish",
-            "gl":"Unha minisimmons single de cóncavo simple. Con núcleo de EPX e madeira de obeche rematado en aceite, lasur e barniz"
+            "es":"Una tabla a medio camino entre un paipo y un minisimmons. Con núcleo de EPX y madera de obeche rematado en aceite, lasur y barniz",
+            "en":"Half paipo and half minisimmons .  EPX core and obeche wood finished with oil, lasure and barnish",
+            "gl":"Unha prancha a medio camiño entre un paipo e un minisimmons. Con núcleo de EPX e madeira de obeche rematado en aceite, lasur e barniz"
           },
           "fins": "Single fin (US-BOX)",
           "sizes": [152,52,5.8],
           "weight": [3100],
-          "pricing": false
+          "pricing": 200
         },
         "shortpanda": {
           "title":"Shortboard Pandabears",
@@ -32,7 +32,7 @@
           "fins": "3 Fin (FCS)",
           "sizes": [164,63.5,7],
           "weight": [3400],
-          "pricing": false
+          "pricing": 280
         },
         "spaceoddity": {
           "title":"Space oddity",
@@ -105,7 +105,7 @@
           "fins": "Single fin (US-BOX)",
           "sizes": [197,60.96,6.6],
           "weight": [3200],
-          "pricing": false
+          "pricing": 400
         }
       }
     },
@@ -142,7 +142,7 @@
           "fins": "Single fin (US-BOX)",
           "sizes": [197,62,6.5],
           "weight": false,
-          "pricing": false
+          "pricing": 380
         }
       }
     },

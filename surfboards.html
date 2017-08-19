@@ -58,19 +58,31 @@
               <% if(surfboard.weight!= false){%><li>Peso: <%= parseFloat(surfboard.weight)/1000 %> Kg</li><%}%>
             </ul>
           </div>
-          <!--div class="col-xs-6 text-right">
-            <div class="precio">450€</div>
-            <% if (surfboard.pricing) { %>
-                <button ><%= price %></button>
-            <% } else { %>
-            <img src="https://www.paypalobjects.com/webstatic/en_AU/i/buttons/btn_paywith_primary_m.png" alt="Pay with PayPal" />
-            <% } %>
-          </div-->
+
+
         </div>
 
 
         <div class="row">
-          <h2><%- serie.name %></h2>
+          <div class="col-sm-12 text-left">
+            <% if (surfboard.pricing) { %>
+              <span class="precio"><%= surfboard.pricing %> €</span>
+            <% } else { %>
+              <span class="nodisponible">No Disponible</span>
+
+            <!--img src="https://www.paypalobjects.com/webstatic/en_AU/i/buttons/btn_paywith_primary_m.png" alt="Pay with PayPal" /-->
+
+            <% } %>
+          </div>
+          <div class="row">
+            <div class="col-sm-12  interesado text-left">
+              Máis información en <a href='mailto:ola@ulaola.site'>ola@ulaola.site</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <h2> <%- serie.name %></h2>
           <p class="descSerie"><%= eval('serie.description.'+app.currentLang) %></p>
           <div class="row galeria">
             <% _.each( serie.boards , function(b, i) { %>
