@@ -71,6 +71,30 @@
       },
       "defaultBoard": "minimal7",
       "boards": {
+        "fatship": {
+          "title":"Longboard (Fatship) ",
+          "description":{
+            "es":"Cóncavo suave en nose y belly bee en el centro. Con núcleo de EPX, madera de obeche rematada en epoxi y antos de corcho.",
+            "en":"Light concave on nose and belly bee on center. EPX core and obeche wood, finish with an epoxy resin and cork rails.",
+            "gl":"Cóncavo suave no nose e belly bee no centro . Con núcleo de EPX, madeira de obeche rematada en epoxi e antos de corcho."
+          },
+          "fins": "Single fin (US-BOX)",
+          "sizes": [243.84,60.96,8],
+          "weight": [4900],
+          "pricing": false
+        },
+        "batmobile": {
+          "title":"Minimalibu 6'4\" (Batmobile) ",
+          "description":{
+            "es":"Minimalibú 6' 4\". Con núcleo de EPX, madera de obeche rematada en epoxi y antos de corcho.",
+            "en":"Minimalibu 6' 4\". EPX core and obeche wood, finish with an epoxy resin and cork rails.",
+            "gl":"Minimalibú 6' 4\". Con núcleo de EPX, madeira de obeche rematada en epoxi e antos de corcho."
+          },
+          "fins": "Single fin (US-BOX)",
+          "sizes": [193,60.96,6.5],
+          "weight": [3200],
+          "pricing": 450
+        },
         "minimal7": {
           "title":"Minimalibu 7",
           "description":{
@@ -106,19 +130,8 @@
           "sizes": [197,60.96,6.6],
           "weight": [3200],
           "pricing": 400
-        },
-        "batmobile": {
-          "title":"Minimalibu 6'4\" (Batmobile) ",
-          "description":{
-            "es":"Minimalibú 6' 4\". Con núcleo de EPX, madera de obeche rematada en epoxi y antos de corcho.",
-            "en":"Minimalibu 6' 4\". EPX core and obeche wood, finish with an epoxy resin and cork rails.",
-            "gl":"Minimalibú 6' 4\". Con núcleo de EPX, madeira de obeche rematada en epoxi e antos de corcho."
-          },
-          "fins": "Single fin (US-BOX)",
-          "sizes": [193,60.96,6.5],
-          "weight": [3200],
-          "pricing": 450
         }
+
       }
     },
 
