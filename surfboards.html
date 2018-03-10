@@ -65,14 +65,12 @@
 
         <div class="row">
           <div class="col-sm-12 text-left">
-            <% if (surfboard.pricing) { %>
-              <span class="precio"><%= surfboard.pricing %> €</span>
-            <% } else { %>
-              <span class="nodisponible">Contact us</span>
+  
+              <a href="http://shop.ulaola.site">
+                <span class="nodisponible">Go to shop <i class="fa fa-shopping-cart"></i></span>
+              </a>
 
-            <!--img src="https://www.paypalobjects.com/webstatic/en_AU/i/buttons/btn_paywith_primary_m.png" alt="Pay with PayPal" /-->
 
-            <% } %>
           </div>
           <div class="row">
             <div class="col-sm-12  interesado text-left">
@@ -155,7 +153,9 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav navbar-right">
-
+                <li>
+                    <a class="page-scroll i18nLink i18nContent" href="http://shop.ulaola.site">Shop <i class="fa fa-shopping-cart"></i></a>
+                </li>
                 <li>
                     <a class="page-scroll i18nLink i18nContent" href="index.html#surfboards">Surfboards</a>
                 </li>
@@ -168,6 +168,7 @@
                 <li>
                     <a class="page-scroll i18nLink i18nContent" href="index.html#contact">Contact</a>
                 </li>
+
               </ul>
             </div>
             <!-- /.navbar-collapse -->
