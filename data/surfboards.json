@@ -196,6 +196,18 @@
           "weight": false,
           "pricing": false
         },
+        "leash": {
+          "title":"The machine",
+          "description":{
+            "es":"Tapón de invento en madera de iroko y latón <br><ul> <li>Puedes comprarlo en: <a href="http://shop.ulaola.site/product/wooden-leash">http://shop.ulaola.site/product/wooden-leash</a></li> <li>Archivos Rhinoceros3D (licencia GPLv3): <a href="https://github.com/ulaola/leashPlug">https://github.com/ulaola/leashPlug</a> </li> </ul> ",
+            "en":"Leash plug made of iroko wood and brass <br><ul> <li>You can buy it on: <a href="http://shop.ulaola.site/product/wooden-leash">http://shop.ulaola.site/product/wooden-leash</a></li> <li>Rhinoceros3D Files (GPLv3 license): <a href="https://github.com/ulaola/leashPlug">https://github.com/ulaola/leashPlug</a> </li> </ul> ",
+            "gl":"Tapón de invento feito en madeira de iroko e latón <br><ul> <li>Podes mercalo en: <a href="http://shop.ulaola.site/product/wooden-leash">http://shop.ulaola.site/product/wooden-leash</a></li> <li>Arquivos Rhinoceros3D (licencia GPLv3): <a href="https://github.com/ulaola/leashPlug">https://github.com/ulaola/leashPlug</a> </li> </ul> "
+          },
+          "fins": false,
+          "sizes": false,
+          "weight": false,
+          "pricing": false
+        },        
         "models": {
           "title":"Models an Gcode resizer",
           "description":{
