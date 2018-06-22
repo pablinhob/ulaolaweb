@@ -8,20 +8,21 @@
         "en":"Trial & error, customized u other strange surfboards",
         "gl":"Táboas de proba/erro, customizadas ou outras rarezas"
       },
-      "defaultBoard": "singlesimmons",
+      "defaultBoard": "SIMMONS",
       "boards": {
-        "singlesimmons": {
-          "title":"Singlesimmons",
+      "SIMMONS": {
+          "title":"Plywood minisimmons",
           "description":{
-            "es":"Una tabla a medio camino entre un paipo y un minisimmons. Con núcleo de EPX y madera de obeche rematado en aceite, lasur y barniz",
-            "en":"Half paipo and half minisimmons .  EPX core and obeche wood finished with oil, lasure and barnish",
-            "gl":"Unha prancha a medio camiño entre un paipo e un minisimmons. Con núcleo de EPX e madeira de obeche rematado en aceite, lasur e barniz"
+            "es":"Minisimmons. Con núcleo de EPX, madera de okumen y corcho. Rematado en bioepoxy",
+            "en":"Minisimmons.  EPX core and okumen, plywood and cork. Finished with BioEpoxy",
+            "gl":"Minisimmons. Con núcleo de EPX, madeira de okumen e corcho. Rematado en bioepoxy"
           },
-          "fins": "Single fin (US-BOX)",
-          "sizes": [152,52,5.8],
-          "weight": [3100],
-          "pricing": 200
+          "fins": "Twin fin (Futures)",
+          "sizes": [161,56,5.8],
+          "weight": [4000],
+          "pricing": 0
         },
+
         "shortpanda": {
           "title":"Shortboard Pandabears",
           "description":{
@@ -46,6 +47,18 @@
           "weight": [4100],
           "pricing": false
         },
+        "singlesimmons": {
+          "title":"Singlesimmons",
+          "description":{
+            "es":"Una tabla a medio camino entre un paipo y un minisimmons. Con núcleo de EPX y madera de obeche rematado en aceite, lasur y barniz",
+            "en":"Half paipo and half minisimmons .  EPX core and obeche wood finished with oil, lasure and barnish",
+            "gl":"Unha prancha a medio camiño entre un paipo e un minisimmons. Con núcleo de EPX e madeira de obeche rematado en aceite, lasur e barniz"
+          },
+          "fins": "Single fin (US-BOX)",
+          "sizes": [152,52,5.8],
+          "weight": [3100],
+          "pricing": 200
+        },        
         "tablon1": {
           "title":"Minimal #1",
           "description":{
