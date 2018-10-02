@@ -7,7 +7,7 @@ body, html {
 
 .bgimg-1, .bgimg-2, .bgimg-3 {
   position: relative;
-  opacity: 0.65;
+  /*opacity: 0.65;*/
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -15,12 +15,12 @@ body, html {
 
 }
 .bgimg-1 {
-  background-image: url("api.jpg");
+  background-image: url("api_white.jpg");
   min-height: 100%;
 }
 
 .bgimg-2 {
-  background-image: url("img_parallax2.jpg");
+  background-image: url("ceras.jpg");
   min-height: 400px;
 }
 
@@ -30,7 +30,7 @@ body, html {
 }
 
 .caption {
-  position: absolute;
+  /*position: absolute;*/
   left: 0;
   top: 50%;
   width: 100%;
