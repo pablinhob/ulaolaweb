@@ -22,8 +22,7 @@ body, html {
   .bgimg-1 .ceras {
     position: absolute;
     top: 50%;
-    height: 100px;
-    margin-top: -50px;
+    transform: translateY(-50%);
   }
 
 .bgimg-2 {
