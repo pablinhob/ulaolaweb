@@ -20,8 +20,21 @@ body, html {
 }
 
   .bgimg-1 .ceras {
-    top: 60%;
-    transform: translateY(50%);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-55%);
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: #000;
+  }
+
+  .bgimg-1 .ceras span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
   }
 
   .next {
@@ -53,14 +66,14 @@ body, html {
   background-image: url("ceras.jpg");
   min-height: 400px;
 }
-  .bgimg-2 .iratienda { 
+  .bgimg-2 .iratienda {
     position:absolute;
     top: 50%;
     transform: translateY(-50%);
     left:50%;
-    transform: translateX(-50%);    
+    transform: translateX(-50%);
   }
-    .bgimg-2 .iratienda a { 
+    .bgimg-2 .iratienda a {
       background-color: #000;
       font-size:30px;
       padding:15px;
