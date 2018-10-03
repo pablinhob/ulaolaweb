@@ -53,6 +53,10 @@ body, html {
   background-image: url("ceras.jpg");
   min-height: 400px;
 }
+  .bgimg-2 .iratienda { 
+    top: 60%;
+    transform: translateY(50%);
+  }
 
 .bgimg-3 {
   background-image: url("img_parallax3.jpg");
