@@ -55,9 +55,10 @@ body, html {
 }
   .bgimg-2 .iratienda { 
     position:absolute;
-    top: 60%;
-    transform: translateY(50%);
+    top: 50%;
+    transform: translateY(-50%);
     left:50%;
+    transform: translateX(-50%);    
   }
     .bgimg-2 .iratienda a { 
       background-color: green;
