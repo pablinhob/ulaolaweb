@@ -57,6 +57,12 @@ body, html {
     top: 60%;
     transform: translateY(50%);
   }
+    .bgimg-2 .iratienda a { 
+      background-color: green;
+      padding:10px;
+      color:#fff;
+      font-weight:bold;
+    }
 
 .bgimg-3 {
   background-image: url("img_parallax3.jpg");
