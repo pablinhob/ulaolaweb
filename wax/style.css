@@ -19,6 +19,13 @@ body, html {
   min-height: 100%;
 }
 
+  .bgimg-1 .ceras {
+    position: absolute;
+    top: 50%;
+    height: 100px;
+    margin-top: -50px;
+  }
+
 .bgimg-2 {
   background-image: url("ceras.jpg");
   min-height: 400px;
