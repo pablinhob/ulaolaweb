@@ -24,6 +24,31 @@ body, html {
     transform: translateY(50%);
   }
 
+  .next {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 75px;
+    line-height: 75px;
+    text-align:center;
+    opacity: 1;
+    background: green;
+    color:#fff;
+    border-radius:50%;
+    -webkit-animation: bounce .3s infinite alternate;
+    -moz-animation: bounce .3s infinite alternate;
+    animation: bounce .3s infinite alternate;
+  }
+  @-webkit-keyframes bounce {
+    to { -webkit-transform: scale(1.2); }
+  }
+  @-moz-keyframes bounce {
+    to { -moz-transform: scale(1.2); }
+  }
+  @keyframes bounce {
+    to { transform: scale(1.2); }
+  }
+
 .bgimg-2 {
   background-image: url("ceras.jpg");
   min-height: 400px;
