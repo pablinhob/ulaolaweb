@@ -56,9 +56,11 @@ body, html {
   .bgimg-2 .iratienda { 
     top: 60%;
     transform: translateY(50%);
+    text-align:center;
   }
     .bgimg-2 .iratienda a { 
       background-color: green;
+      font-size:20px;
       padding:10px;
       color:#fff;
       font-weight:bold;
