@@ -26,10 +26,10 @@ body, html {
 
   .next {
     position: absolute;
-    bottom 40px;
+    top 80%;
     left: 50%;
-    width: 75px;
-    line-height: 75px;
+    width: 40px;
+    line-height: 40px;
     text-align:center;
     opacity: 1;
     background: #000;
@@ -40,13 +40,13 @@ body, html {
     animation: bounce .3s infinite alternate;
   }
   @-webkit-keyframes bounce {
-    to { margin-top:-20px;}
+    to { margin-top:-15px;}
   }
   @-moz-keyframes bounce {
     to { margin-top:0px;}
   }
   @keyframes bounce {
-    to { margin-top:20px; }
+    to { margin-top:15px; }
   }
 
 .bgimg-2 {
