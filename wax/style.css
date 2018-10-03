@@ -54,9 +54,10 @@ body, html {
   min-height: 400px;
 }
   .bgimg-2 .iratienda { 
+    position:absolute;
     top: 60%;
     transform: translateY(50%);
-    text-align:center;
+    left:50%;
   }
     .bgimg-2 .iratienda a { 
       background-color: green;
