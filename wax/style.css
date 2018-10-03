@@ -26,8 +26,8 @@ body, html {
 
   .next {
     position: absolute;
-    top: 50px;
-    left: 50px;
+    bottom 40px;
+    left: 50%;
     width: 75px;
     line-height: 75px;
     text-align:center;
