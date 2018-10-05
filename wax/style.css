@@ -148,6 +148,6 @@ h3 {
     display:none;
   }
   .cera_movil {
-    display:inline;
+    display:inline !important;
   }
 }
