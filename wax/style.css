@@ -60,7 +60,7 @@ body, html {
 
   .next {
     position: absolute;
-    top: 85%;
+    top: 90%;
     left: 50%;
     transform: translateX(-50%);
     width: 60px;
@@ -140,14 +140,16 @@ h3 {
     }
 
 }
-.cera_movil {
-  display:none;
-}
+
+
 @media (max-width: 1024px) {
   .cera_normal {
     display:none;
   }
   .cera_movil {
     display:inline !important;
+  }
+  .ceras .border {
+    font-size:15px !important;
   }
 }
