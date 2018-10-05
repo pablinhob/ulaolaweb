@@ -149,7 +149,8 @@ h3 {
   .cera_movil {
     display:inline !important;
   }
-  .ceras .border {
+  .ceras .border, .iratienda * {
     font-size:15px !important;
   }
+
 }
