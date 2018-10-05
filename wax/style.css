@@ -143,7 +143,7 @@ h3 {
 .cera_movil {
   display:none;
 }
-@media (max-width: 767px) {
+@media (max-width: 1024px) {
   .cera_normal {
     display:none;
   }
