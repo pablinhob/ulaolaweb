@@ -67,7 +67,7 @@ body, html {
     letter-spacing: 10px;
   }
     .bgimg-1 .captionprensa {
-  
+
     }
     .bgimg-1 .prensa {
       width:450px;
@@ -185,5 +185,17 @@ h3 {
   }
   .iratienda * {
     font-size:15px !important;
+  }
+
+  .bgimg-1 .prensa {
+    width:300px;
+
+  }
+
+  .bgimg-1 .titular {
+    font-size: 20px;
+  }
+  .bgimg-1 .fuente {
+    font-size: 17px;
   }
 }
