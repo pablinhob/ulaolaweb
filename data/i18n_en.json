@@ -2,6 +2,9 @@
   "index.html#page-top": "index.html#!en/page-top",
   "#page-top": "#!en/page-top",
 
+  "fins/gl": "fins/en",
+  "wax/gl": "wax/en",
+
   "index.html#surfboards" : "index.html#!en/surfboards",
   "index.html#makers" : "index.html#!en/makers",
   "inspirations.html" : "inspirations.html#!en",
@@ -12,7 +15,8 @@
   "surfboards.html#!stubby" : "surfboards.html#!en/stubby",
 
 
-
+  "Fins": "Fins",
+  "Surfwax": "Surfwax",
   "We are makers": "We are makers",
   "Inspirations": "Inspirations",
   "Contact": "Contact",

@@ -2,6 +2,9 @@
   "index.html#page-top": "index.html#es/page-top",
   "#page-top": "#es/page-top",
 
+  "fins/gl": "fins/es",
+  "wax/gl": "wax/es",
+
   "index.html#surfboards" : "index.html#!es/surfboards",
   "index.html#makers" : "index.html#!es/makers",
   "inspirations.html" : "inspirations.html#!es",
@@ -11,7 +14,8 @@
   "surfboards.html#!long" : "surfboards.html#!es/long",
   "surfboards.html#!stubby" : "surfboards.html#!es/stubby",
 
-
+  "Fins": "Quillas",
+  "Surfwax": "Ceras",
   "We are makers": "Somos makers",
   "Inspirations": "Inspiraciones",
   "Contact": "Contacto",
