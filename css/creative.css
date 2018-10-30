@@ -273,6 +273,11 @@ header .header-content .header-content-inner p {
   max-width: 650px;
   margin: 0 auto;
 }
+
+.waxfins .portfolio-box {
+  max-width: auto;
+}
+
 .portfolio-box .portfolio-box-caption:hover {background: rgba(100, 89, 11, 0.6);}
 .portfolio-box .portfolio-box-caption {
   color: white;
